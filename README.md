@@ -22,7 +22,7 @@ npm install
 ## Running:
 
 ```sh
-    node .
+node .
 ```
 
 The sccript will generate an `indEX.json` with all the data.
