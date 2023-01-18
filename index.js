@@ -49,4 +49,5 @@ const summerJobs = {
   jobPostings: jobPostings,
 };
 
+console.log("Parsed:", summerJobs.jobPostings.length, "Jobs");
 fs.writeFileSync("indEX.json", JSON.stringify(summerJobs, null, 2));
