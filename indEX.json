@@ -1,21 +1,885 @@
 {
   "programs": [
     "Engineering",
-    "Biomedical Mechanical Engineering",
-    "Chemical Engineering",
-    "Civil Engineering",
-    "Computer Engineering",
-    "Computer Science",
-    "Electrical Engineering",
-    "Master - Advanced Materials and Manufacturing",
-    "Master - Computer Science",
-    "Master - Electrical and Computer Engineering",
-    "Master - Electronic Business Technologies",
-    "Master - Mechanical Engineering",
-    "Mechanical Engineering",
     "Software Engineering"
   ],
   "jobPostings": [
+    [
+      "2023 Summer Student - Python Developer",
+      "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student---Python-Developer_R-0000040611"
+    ],
+    [
+      "2023 Summer Student - Strategy Analyst, RBCx Ventures",
+      "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student---Strategy-Analyst--RBCx-Ventures_R-0000040651"
+    ],
+    [
+      "2023 Summer Student - Junior Analyst/Associate",
+      "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student---Junior-Analyst-Associate_R-0000039935"
+    ],
+    [
+      "2023 Summer Student, CFO - Financial Analyst FRR",
+      "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student--CFO---Financial-Analyst-FRR_R-0000041085"
+    ],
+    [
+      "2023 Summer Student, CFO - Canadian Banking Data Analyst (4 or 8 months)",
+      "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/Summer-2023-Student--CFO---Canadian-Banking-Data-Analyst--4-or-8-months-_R-0000040431"
+    ],
+    [
+      "2023 Summer Student, CFO - Financial Analyst, Wealth Management Financial Control Co-Op",
+      "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student--CFO---Financial-Analyst--Wealth-Management-Financial-Control-Co-Op_R-0000040078-1"
+    ],
+    [
+      "2023 Summer Student, CFO - Financial Analyst, Wealth Management Finance",
+      "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student--CFO---Financial-Analyst--Wealth-Management-Finance_R-0000040438"
+    ],
+    [
+      "2023 Summer Student - Risk Analyst, Counterparty Credit Risk",
+      "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student---Risk-Analyst--Counterparty-Credit-Risk_R-0000040609"
+    ],
+    [
+      "2023 Summer Student - Data Scientist (Halifax)",
+      "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/HALIFAX-Nova-Scotia-Canada/XMLNAME-2023-Summer-Student---Data-Scientist--Halifax-_R-0000040871"
+    ],
+    [
+      "2023 Summer GRM 12 Months Internship",
+      "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-GRM-12-Months-Internship_R-0000038623"
+    ],
+    [
+      "Mergers and Acquisitions Analyst Internship/Co-op - Summer 2023 (169966)",
+      "https://career17.sapsf.com/sfcareer/jobreqcareerpvt?jobId=169966&company=scotiabank&st=118E3ED2B60B61C1D6A8CCE0C7E9919FA394FE81"
+    ],
+    [
+      "Global Markets, Alternate Solutions Group Summer 2023 Analyst",
+      "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Global-Markets--Alternate-Solutions-Group-Summer-2023-Analyst_2243439"
+    ],
+    [
+      "Global Markets, Summer 2023 Analyst",
+      "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Global-Markets--Summer-2023-Analyst_2243432"
+    ],
+    [
+      "Computer Co-op/Developmental Student Opportunities - Summer 2023",
+      "https://jobs.opg.com/job/Ts%7B12%7D-Z%7B13%7Dl-Mountain-Computer-Co-opDevelopmental-Student-Opportunities-Summer-2023-ON-L1C-3Z8/566402617/"
+    ],
+    [
+      "Co-op/Developmental Student Opportunities- Cornwall, ON May 2023",
+      "https://jobs.opg.com/job/Cornwall-Co-opDevelopmental-Student-Opportunities-Cornwall%2C-ON-May-2023-ON-K6H-5R6/566405517/"
+    ],
+    [
+      "Career Opportunities: Velocity - Architecture & Design Internship/Co-op - Summer 2023 (169735)",
+      "https://career17.sapsf.com/sfcareer/jobreqcareerpvt?jobId=169735&company=scotiabank&st=5067755DEFAAF34D19007001915CE4DD0B468A0C"
+    ],
+    [
+      "Stage - ingénieur robotique et automatisation - Vision",
+      "/IndEX/Home/DisplayPDF/37962"
+    ],
+    [
+      "Engineering Co-op Student 2023",
+      "https://careers-oeb.icims.com/jobs/1412/engineering-co-op-student-2023/job"
+    ],
+    [
+      "Strategy, Project Management & Change Co-op Student",
+      "https://careers-oeb.icims.com/jobs/1411/strategy%2c-project-management-%26-change-co-op-student/job?mobile=false&width=1140&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240"
+    ],
+    [
+      "Strategy, Project Management & Change Summer Student",
+      "https://careers-oeb.icims.com/jobs/1410/strategy%2c-project-management-%26-change-summer-student/job"
+    ],
+    [
+      "Natural Gas Co-op Student 2023",
+      "https://careers-oeb.icims.com/jobs/1405/natural-gas-co-op-student-2023/job"
+    ],
+    [
+      "Co-op Software Developer",
+      "/IndEX/Home/DisplayPDF/38013"
+    ],
+    [
+      "2023 Summer Student Work Placement New",
+      "https://careers.bankofcanada.ca/job/Ottawa-%28Downtown%29-2023-Summer-Student-Work-Placement-ON/566538117/"
+    ],
+    [
+      "2023 Emplois d'été pour étudiants New",
+      "https://careers.bankofcanada.ca/job/Ottawa-%28centre-ville%29-2023-Emplois-d&apos;%C3%A9t%C3%A9-pour-%C3%A9tudiants-ON/566538017/"
+    ],
+    [
+      "ENGINEERING INTERN",
+      "https://jobs.boeing.com/job/winnipeg/engineering-intern/185/42482822784"
+    ],
+    [
+      "COOP Student, Forestry Assistant",
+      "https://jobs-emplois.ottawa.ca/city-jobs/job/Ottawa%2C-ON-COOP-Student%2C-Forestry-Assistant-ON/727134347/"
+    ],
+    [
+      "2023 Software Engineer Summer Internship",
+      "https://careers.unity.com/position/2023-stagiaire-en-d-veloppement/4614339"
+    ],
+    [
+      "VANCOUVER, CANADA 2023 Software Engineer Summer Internship",
+      "https://careers.unity.com/position/2023-software-engineer-summer-internship/4616974"
+    ],
+    [
+      "2023 Software Engineer Summer Internship",
+      "https://careers.unity.com/position/2023-software-engineer-summer-internship/4616966"
+    ],
+    [
+      "2023 Software Engineer Summer Internship",
+      "https://careers.unity.com/position/2023-software-engineer-summer-internship/4616976"
+    ],
+    [
+      "Software Engineer Intern/Co-op",
+      "https://jobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=361060BR"
+    ],
+    [
+      "Data Engineer Intern/Co-op",
+      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=361063BR#jobDetails=2990032_5813"
+    ],
+    [
+      "Mobile Software Engineer Intern/Co-op",
+      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=361062BR#jobDetails=2990025_5813"
+    ],
+    [
+      "Business Systems Analyst Intern/Co-op",
+      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=361066BR#jobDetails=2990045_5813"
+    ],
+    [
+      "Quality Engineering Intern/Co-op",
+      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=361068BR#jobDetails=2990054_5813"
+    ],
+    [
+      "Cyber Security Intern/Co-op",
+      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=361075BR#jobDetails=2990088_5813"
+    ],
+    [
+      "Cloud / DevOps Engineer Intern/Co-op",
+      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=361081BR#jobDetails=2990106_5813"
+    ],
+    [
+      "Co-op, Quantitative Analyst (Summer 2023)",
+      "https://boards.greenhouse.io/onex/jobs/5467747003?gh_src=36ad8da93us"
+    ],
+    [
+      "TD Innovation Lab – User Experience Designer Intern/Co-op New",
+      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=395258BR#jobDetails=3114411_5813"
+    ],
+    [
+      "TD Innovation Lab – Innovation Analyst Intern/Co-op New",
+      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=395263BR#jobDetails=3114420_5813"
+    ],
+    [
+      "TD Innovation Lab – Software Developer Intern/Co-op New",
+      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=395264BR#jobDetails=3114424_5813"
+    ],
+    [
+      "User Experience Designer Intern/Co-op New",
+      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=395270BR#jobDetails=3114435_5813"
+    ],
+    [
+      "S - Internship Clerk, Library Services, Summer 2023 (Ottawa)",
+      "https://careers.cmhc-schl.gc.ca/job/Ottawa-S-Internship-Clerk%2C-Library-Services%2C-Summer-2023-%28Ottawa%29/564526517/"
+    ],
+    [
+      "S - Internship, Junior Data Scientist, Summer 2023 (Anywhere in Canada)",
+      "https://careers.cmhc-schl.gc.ca/job/Ottawa-S-Internship%2C-Junior-Data-Scientist%2C-Summer-2023-%28Anywhere-in-Canada%29/564800517/"
+    ],
+    [
+      "Tesla Toronto Automation - Mechanical Engineering Internship (Summer 2023)",
+      "https://www.tesla.com/careers/search/job/tesla-toronto-automation-mechanical-engineering-internship-summer-2023-158965"
+    ],
+    [
+      "Tesla Toronto Automation - Project Management Engineering Internship (Summer 2023)",
+      "https://www.tesla.com/careers/search/job/tesla-toronto-automation-project-management-engineering-internship-summer-2023-158935"
+    ],
+    [
+      "S - Internship, Junior Analyst, Data and Information, Summer 2023 (Anywhere in Canada)",
+      "https://careers.cmhc-schl.gc.ca/job/Ottawa-S-Internship-Summer-2023%2C-Junior-Analyst%2C-Data-and-Information-%28Anywhere-in-Canada%29/564611317/"
+    ],
+    [
+      "Global Banking and Markets - THRIVE Summer Internship Program (Canada) - Summer 2023 New",
+      "https://career17.sapsf.com/sfcareer/jobreqcareerpvt?jobId=171289&company=scotiabank&st=FB76AB5E97FAC29F4B832C8699F8693271C0DD3D"
+    ],
+    [
+      "AMÉLIORER LA CONFORMITÉ GRÂCE À L'ANALYSE DES DONNÉES New",
+      "https://placementspot.ca/stages/ameliorer-la-conformite-grace-a-lanalyse-des-donnees-1"
+    ],
+    [
+      "IMPLEMENTATION DE LA NOUVELLE VERSION 2020X D'ENOVIA New",
+      "https://placementspot.ca/stages/implementation-de-la-nouvelle-version-2020x-denovia-1"
+    ],
+    [
+      "ANALYSTE AU SOUTIEN DES AFFAIRES POUR LA CONFORMITÉ DU COMMERCE INTERNATIONAL DANS LES OPÉRATIONS New",
+      "https://placementspot.ca/stages/analyste-au-soutien-des-affaires-pour-la-conformite-du-commerce-international-dans-les-operations-3"
+    ],
+    [
+      "STAGIAIRE EN TEST DE SOLUTIONS NUMÉRIQUES DE GESTION DU CYCLE DE VIE DU PRODUIT New",
+      "https://placementspot.ca/stages/stagiaire-en-test-de-solutions-numeriques-de-gestion-du-cycle-de-vie-du-produit"
+    ],
+    [
+      "DÉVELOPPEUR C++ « BACK-END » ET RÉALITÉ MIXTE New",
+      "https://placementspot.ca/stages/developpeur-c-back-end-et-realite-mixte-5"
+    ],
+    [
+      "DÉVELOPPEUR DEVOPS New",
+      "https://placementspot.ca/stages/developpeur-devops-5"
+    ],
+    [
+      "DÉVELOPPEUR LOGICIEL - RÉSEAUX INTERFACES ET OUTILS New",
+      "https://placementspot.ca/stages/developpeur-logiciel-reseaux-interfaces-et-outils-2"
+    ],
+    [
+      "DÉVELOPPEUR LOGICIEL - INFRASTRUCTURE New",
+      "https://placementspot.ca/stages/developpeur-logiciel-infrastructure-5"
+    ],
+    [
+      "SOFTWARE DEVELOPER – TCMS TEAM New",
+      "https://placementspot.ca/stages/software-developer-tcms-team"
+    ],
+    [
+      "Summer 2023 Intern, Data Analyst (Business Technology)",
+      "https://salesforce.wd1.myworkdayjobs.com/en-US/External_Career_Site/details/Summer-2023-Intern--Data-Analyst--Business-Technology-_JR166008-1?workerSubType=c756cea16ad744eeb7b62d1c7b054ac1&locations=0a44c097c9704647a233fd0166cf7dbb&locations="
+    ],
+    [
+      "Co-op Student, Computer Science (Saskatchewan)",
+      "https://jobs.nutrien.com/North-America/job/Saskatoon-Co-op-Student%2C-Computer-Science-%28Saskatchewan%29-SK-S7K-5Z6/563339617/"
+    ],
+    [
+      "Co-op Student, Computer Science (Alberta)",
+      "https://jobs.nutrien.com/North-America/job/Calgary-Co-op-Student%2C-Computer-Science-%28Alberta%29-AB-T2P-2N1/563340217/"
+    ],
+    [
+      "Co-op Student, Engineering (Alberta)",
+      "https://jobs.nutrien.com/North-America/job/Calgary-Co-op-Student%2C-Engineering-%28Canada%29-AB-T2P-2N1/563324717/"
+    ],
+    [
+      "Co-op Student, Chemical Engineering (Alberta)",
+      "https://jobs.nutrien.com/North-America/job/Saskatoon-Co-op-Student%2C-Chemical-Engineering-%28Alberta%29-SK-S7K-5Z6/563463817/"
+    ],
+    [
+      "Software Development Engineer Intern - 2023 (Canada)",
+      "https://www.amazon.jobs/en/jobs/2114265/software-development-engineer-intern-2023-canada"
+    ],
+    [
+      "Associate Consultant Intern, Summer 2023",
+      "https://careers.mastercard.com/us/en/job/R-173139/Associate-Consultant-Intern-Summer-2023"
+    ],
+    [
+      "C++ Engineer Intern - (Summer 2023)",
+      "https://ea.gr8people.com/jobs/175722/c-engineer-intern-summer-2023"
+    ],
+    [
+      "Software Engineer Intern (Summer 2023)",
+      "https://ea.gr8people.com/jobs/175867/software-engineer-intern-summer-2023"
+    ],
+    [
+      "Software Engineer Summer Intern - TS4 Client",
+      "https://ea.gr8people.com/jobs/175923/software-engineer-summer-intern-ts4-client"
+    ],
+    [
+      "Product Manager Intern (Summer 2023)",
+      "https://ea.gr8people.com/jobs/175941/product-manager-intern-summer-2023"
+    ],
+    [
+      "Software Engineer Intern",
+      "https://ea.gr8people.com/jobs/175926/software-engineer-intern"
+    ],
+    [
+      "Design Intern (Summer/May 2023, 4-8 Month) New",
+      "https://jobs.lever.co/geotab/110ae952-6eb8-4855-8ea9-021f1df736fa"
+    ],
+    [
+      "Software Developer Intern, MyGeotab (Summer/May 2023, 4-16 Month) New",
+      "https://jobs.lever.co/geotab/b3e85a35-9b57-4969-bdb2-632de114899b"
+    ],
+    [
+      "Stagiaire en gestion de projet / Project Management Intern",
+      "https://ca.indeed.com/jobs?q=maths+Internship&start=10&pp=gQAPAAAAAAAAAAAAAAAB77Y6WAARAQBaGOX69n-5t-QMGpCfZSYAAA&vjk=8573e0615fc6a953"
+    ],
+    [
+      "Consultant Intern - Industry Transformation (Summer - 12 months)",
+      "https://ca.indeed.com/Actuarial-Intern-jobs?vjk=5443476f15833636"
+    ],
+    [
+      "Stagiaire, Analytique (hiver et/ou été 2023)",
+      "https://cdpq.wd10.myworkdayjobs.com/en-US/CDPQ-recrutement-universitaire/jobs/details/Stagiaire--Analytique--hiver-et-ou-t-2023-_R01976"
+    ],
+    [
+      "Hardware Developer Intern (Summer/May 2023, 12-16 Months)",
+      "https://jobs.lever.co/geotab/d5d0dc34-1b28-4c9f-99c4-91c3ef6ad9bf"
+    ],
+    [
+      "Velocity - Network Security Administrator Internship/Co-Op - Summer 2023",
+      "https://jobs.scotiabank.com/Tangerine/job/Toronto-Velocity-Network-Security-Administrator-InternshipCo-Op-Summer-2023-ON/566098417/"
+    ],
+    [
+      "Velocity - Technical Services Support Internship/Co-Op - Summer 2023",
+      "https://jobs.scotiabank.com/Tangerine/job/Toronto-Velocity-Technical-Services-Support-InternshipCo-Op-Summer-2023-ON/566099317/"
+    ],
+    [
+      "Velocity - Quality Assurance Engineer Internship/Co-Op - Summer 2023",
+      "https://jobs.scotiabank.com/Tangerine/job/Toronto-Velocity-Quality-Assurance-Engineer-InternshipCo-Op-Summer-2023-ON/566100417/"
+    ],
+    [
+      "Velocity - Software Engineer Internship/Co-Op - Summer 2023",
+      "https://jobs.scotiabank.com/Scotiabank%20(default)/job/Toronto-Velocity-Software-Engineer-InternshipCo-Op-Summer-2023-ON/565956517/"
+    ],
+    [
+      "Velocity - Software Engineer Internship/Co-Op - Summer 2023 (8 months)",
+      "https://jobs.scotiabank.com/Scotiabank%20(default)/job/Toronto-Velocity-Software-Engineer-InternshipCo-Op-Summer-2023-%288-months%29-ON/565967417/"
+    ],
+    [
+      "Velocity - Data Scientist Internship/Co-Op - Summer 2023",
+      "https://jobs.scotiabank.com/Scotiabank%20(default)/job/Toronto-Velocity-Data-Scientist-InternshipCo-Op-Summer-2023-ON/565956117/"
+    ],
+    [
+      "Velocity - Data Scientist Internship/Co-Op - Summer 2023 (8 months)",
+      "https://jobs.scotiabank.com/Scotiabank%20(default)/job/Toronto-Velocity-Data-Scientist-InternshipCo-Op-Summer-2023-%288-months%29-ON/565968517/"
+    ],
+    [
+      "Velocity - Data Engineer Internship/Co-Op - Summer 2023",
+      "https://jobs.scotiabank.com/Scotiabank%20(default)/job/Toronto-Velocity-Data-Engineer-InternshipCo-Op-Summer-2023-ON/565956417/"
+    ],
+    [
+      "Velocity - Data Engineer Internship/Co-Op - Summer 2023 (8 months)",
+      "https://jobs.scotiabank.com/Scotiabank%20(default)/job/Toronto-Velocity-Data-Engineer-InternshipCo-Op-Summer-2023-%288-months%29-ON/565972317/"
+    ],
+    [
+      "Product Coordinator Intern (Summer/May 2023, 12 Month)",
+      "https://jobs.lever.co/geotab/f9f7201f-85a3-4dbf-b351-26e99a916827"
+    ],
+    [
+      "UX Designer Co-op/Intern",
+      "https://careers.nokia.com/jobs/ux-designer-co-op-intern-91361"
+    ],
+    [
+      "UI Developer Co-op/Intern",
+      "https://careers.nokia.com/jobs/ui-developer-co-op-intern-92134"
+    ],
+    [
+      "SW Tools Development Co-op/Intern",
+      "https://careers.nokia.com/jobs/sw-tools-development-co-op-intern-92304"
+    ],
+    [
+      "Project Management Assistant Student",
+      "https://careers.nokia.com/jobs/project-management-assistant-student-93266"
+    ],
+    [
+      "WaveSuite Analytics Tester Co-op/Intern",
+      "https://careers.nokia.com/jobs/wavesuite-analytics-tester-co-op-intern-92904"
+    ],
+    [
+      "WaveSuite Application Tester Co-Op/Intern",
+      "https://careers.nokia.com/jobs/wavesuite-application-tester-co-op-intern-92903"
+    ],
+    [
+      "IT Developer - Co-op/Intern",
+      "https://careers.nokia.com/jobs/it-developer-co-op-intern-92947"
+    ],
+    [
+      "Security Software Developer Co-Op/Intern",
+      "https://careers.nokia.com/jobs/security-software-developer-co-op-intern-93555"
+    ],
+    [
+      "SW Endpoint Detection & Response Student",
+      "https://careers.nokia.com/jobs/sw-endpoint-detection-response-student-93034"
+    ],
+    [
+      "Software R&D Digital Identity Student",
+      "https://careers.nokia.com/jobs/software-r-d-digital-identity-student-93032"
+    ],
+    [
+      "Malware Research Assistant Co-op/Intern",
+      "https://careers.nokia.com/jobs/malware-research-assistant-co-op-intern-93035"
+    ],
+    [
+      "Technical Communication Co-op/Intern",
+      "https://careers.nokia.com/jobs/technical-communication-co-op-intern-93408"
+    ],
+    [
+      "Software Engineer Co-op/Intern",
+      "https://careers.nokia.com/jobs/software-engineer-co-op-intern-93556"
+    ],
+    [
+      "Service Router Platform Test Dev Student",
+      "https://careers.nokia.com/jobs/service-router-platform-test-dev-student-91772"
+    ],
+    [
+      "Real-time C/C++ Software Dev Student",
+      "https://careers.nokia.com/jobs/real-time-c-c%2B%2B-software-dev-student-92590"
+    ],
+    [
+      "Interface UX Designer Co-op/Intern",
+      "https://careers.nokia.com/jobs/interface-ux-designer-co-op-intern-93030"
+    ],
+    [
+      "Web GUI Software Developer Co-op/Intern",
+      "https://careers.nokia.com/jobs/web-gui-software-developer-co-op-intern-93038"
+    ],
+    [
+      "Network Automation Practice Co-op/Intern",
+      "https://careers.nokia.com/jobs/network-automation-practice-co-op-intern-93031"
+    ],
+    [
+      "7750 SR System Test. Engineer Student",
+      "https://careers.nokia.com/jobs/7750-sr-system-test-engineer-student-93026"
+    ],
+    [
+      "7750 SR OAM Test. Engineer Student",
+      "https://careers.nokia.com/jobs/7750-sr-oam-test-engineer-student-93220"
+    ],
+    [
+      "Software Tester Co-op/Intern",
+      "https://careers.nokia.com/jobs/software-tester-co-op-intern-93015"
+    ],
+    [
+      "Software Design Co-op/Intern",
+      "https://careers.nokia.com/jobs/software-design-co-op-intern-93018"
+    ],
+    [
+      "SW Design-Middleware Platform Student",
+      "https://careers.nokia.com/jobs/sw-design-middleware-platform-student-93013"
+    ],
+    [
+      "Software Designer Co-op/Intern",
+      "https://careers.nokia.com/jobs/software-designer-co-op-intern-93014"
+    ],
+    [
+      "Software Tester Co-op/Intern",
+      "https://careers.nokia.com/jobs/software-tester-co-op-intern-93017"
+    ],
+    [
+      "Software Test Specialist Co-op/Intern",
+      "https://careers.nokia.com/jobs/software-test-specialist-co-op-intern-93212"
+    ],
+    [
+      "DevOps Engineer Co-op/Intern",
+      "https://careers.nokia.com/jobs/devops-engineer-co-op-intern-93019"
+    ],
+    [
+      "Software Test Automation Co-op/Intern",
+      "https://careers.nokia.com/jobs/software-test-automation-co-op-intern-93010"
+    ],
+    [
+      "Cloud Automation Engineer Co-op/Intern",
+      "https://careers.nokia.com/jobs/cloud-automation-engineer-co-op-intern-93016"
+    ],
+    [
+      "Application Engineer DocOps Co-op/Intern",
+      "https://careers.nokia.com/jobs/application-engineer-docops-co-op-intern-93671"
+    ],
+    [
+      "Software Developer Co-op/ Intern",
+      "https://aluperf.referrals.selectminds.com/jobs/software-developer-co-op-intern-92209"
+    ],
+    [
+      "Software Developer Co-op",
+      "https://aluperf.referrals.selectminds.com/jobs/software-developer-co-op-91885"
+    ],
+    [
+      "Customer Support Engineer Co-op/Intern",
+      "https://aluperf.referrals.selectminds.com/jobs/customer-support-engineer-co-op-intern-92218"
+    ],
+    [
+      "Customer Applications Eng Co-op/Intern",
+      "https://aluperf.referrals.selectminds.com/jobs/customer-applications-eng-co-op-intern-93684"
+    ],
+    [
+      "Network Automation Eng. Co-op/ Intern",
+      "https://aluperf.referrals.selectminds.com/jobs/network-automation-eng-co-op-intern-93221"
+    ],
+    [
+      "IP Customer App Eng Co-op/Intern",
+      "https://careers.nokia.com/jobs/ip-customer-app-eng-co-op-intern-92378"
+    ],
+    [
+      "Software Developer Intern (Summer/May 2023, 8-12 Month)",
+      "https://jobs.lever.co/geotab/cf965e66-d65e-4951-a296-b0e434934d17"
+    ],
+    [
+      "Data Analyst Intern (Summer/May 2023, 8-12 Months)",
+      "https://jobs.lever.co/geotab/128d0829-b6f2-4e10-9a8c-430742b0d1a6"
+    ],
+    [
+      "Embedded Systems Developer Intern (Summer/May 2023, 12-16 Months)",
+      "https://jobs.lever.co/geotab/2253e53f-496f-41dc-a1de-0d6fc3a8d7c5"
+    ],
+    [
+      "Embedded Developer Intern (Summer/May 2023, 12-16 Months)",
+      "https://jobs.lever.co/geotab/7c086189-a415-4a85-ab42-a71044cfaa11"
+    ],
+    [
+      "Embedded System Developer Intern, IOX Development (Summer/May 2023, 12-16 Months)",
+      "https://jobs.lever.co/geotab/8972b52f-fcb2-47f8-aa75-7f3635f972ca"
+    ],
+    [
+      "Co-Op/Intern Developer, Clients, Front End Technologies",
+      "https://boards.greenhouse.io/kinaxis/jobs/6554753002?gh_jid=6554753002"
+    ],
+    [
+      "Co-Op/Intern Developer, DevOps",
+      "https://boards.greenhouse.io/kinaxis/jobs/6554825002?gh_jid=6554825002"
+    ],
+    [
+      "Co-Op/Intern Developer, Embedded Algorithms, Developer Framework",
+      "https://boards.greenhouse.io/kinaxis/jobs/6548366002?gh_jid=6548366002"
+    ],
+    [
+      "Co-Op/Intern Developer, Machine Learning",
+      "https://boards.greenhouse.io/kinaxis/jobs/6554209002?gh_jid=6554209002"
+    ],
+    [
+      "Co-Op/Intern Software Developer, Product Verification",
+      "https://boards.greenhouse.io/kinaxis/jobs/6548459002?gh_jid=6548459002"
+    ],
+    [
+      "Co-Op/Intern Software Engineer, AI Platform",
+      "https://boards.greenhouse.io/kinaxis/jobs/6548892002?gh_jid=6548892002"
+    ],
+    [
+      "Co-Op/Intern Test Developer, Product Verification",
+      "https://boards.greenhouse.io/kinaxis/jobs/6555852002?gh_jid=6555852002"
+    ],
+    [
+      "Co-Op/Intern Test Developer, Product Verification",
+      "https://boards.greenhouse.io/kinaxis/jobs/6548908002?gh_jid=6548908002"
+    ],
+    [
+      "Software Developer Intern, Active Insights (Summer/May 2023, 8-12 months)",
+      "https://jobs.lever.co/geotab/e2c345d7-a1a1-4c41-9b9e-03244008e85f"
+    ],
+    [
+      "Co-Op/Intern Test Developer, Front End Technologies",
+      "https://boards.greenhouse.io/kinaxis/jobs/6562269002?gh_jid=6562269002"
+    ],
+    [
+      "Software Developer in Test Co-op/Intern",
+      "https://careers.nokia.com/jobs/software-developer-in-test-co-op-intern-94114"
+    ],
+    [
+      "Software Developer in Test Co-op/Intern",
+      "https://careers.nokia.com/jobs/software-developer-in-test-co-op-intern-94113"
+    ],
+    [
+      "Software Developer Co-op/Intern",
+      "https://careers.nokia.com/jobs/software-developer-co-op-intern-94118"
+    ],
+    [
+      "Software Developer Co-op/Intern",
+      "https://careers.nokia.com/jobs/software-developer-co-op-intern-94119"
+    ],
+    [
+      "Automation Developer Co-op/Intern",
+      "https://careers.nokia.com/jobs/automation-developer-co-op-intern-94116"
+    ],
+    [
+      "Summer 2023 Sales & Trading Analyst Internship Calgary, Toronto and Montreal",
+      "https://jobs.nbc.ca/job/toronto/summer-2023-sales-and-trading-analyst-internship-calgary-toronto-and-montreal/5889/35822108576"
+    ],
+    [
+      "C++ Software Engineer Co-Op (Spring/Summer 2023) 8 months",
+      "https://ea.gr8people.com/jobs/173661/c-software-engineer-co-op-springsummer-2023-8-months?geo_location=ChIJs0-pQ_FzhlQRi_OBm-qWkbs"
+    ],
+    [
+      "Backend Software Engineer Summer Intern",
+      "https://ea.gr8people.com/jobs/176035/backend-software-engineer-summer-intern"
+    ],
+    [
+      "Machine Learning Intern (Summer 2023)",
+      "https://ea.gr8people.com/jobs/176651/machine-learning-intern-summer-2023"
+    ],
+    [
+      "Summer 2023 Intern - Electronics (MS)",
+      "https://careers.ansys.com/job/Vancouver-Summer-2023-Intern-Electronics-%28MS%29-Brit-V6E2M6/932139300/"
+    ],
+    [
+      "Summer 2023 Intern - Electronics",
+      "https://careers.ansys.com/job/Vancouver-Summer-2023-Intern-Electronics-Brit-V6E2M6/933034000/"
+    ],
+    [
+      "Blackberry",
+      "https://bb.wd3.myworkdayjobs.com/Student/jobs"
+    ],
+    [
+      "Government of Canda New",
+      "https://www.canada.ca/en/services/jobs/opportunities/government.html"
+    ],
+    [
+      "Tesla",
+      "https://www.tesla.com/careers/search/?type=3&site=CA"
+    ],
+    [
+      "Government of Ontario",
+      "https://www.gojobs.gov.on.ca/Preview.aspx?Language=English&JobID=186517"
+    ],
+    [
+      "Ontario Power Generation",
+      "https://jobs.opg.com/"
+    ],
+    [
+      "The Walt Disney Company",
+      "https://jobs.disneycareers.com/search-jobs?glat=45.42519&glon=-75.67863"
+    ],
+    [
+      "Merck - Career Page",
+      "https://jobs.merck.com/us/en/jointalentcommunity"
+    ],
+    [
+      "Definity",
+      "https://careers.definityfinancial.com/search/jobs/in?location=&page=2&q=intern#"
+    ],
+    [
+      "2023 Summer Student - Risk Analyst, Portfolio Risk Oversight",
+      "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student---Risk-Analyst--Portfolio-Risk-Oversight_R-0000039899"
+    ],
+    [
+      "2023 Summer Student - Data Scientist",
+      "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student---Data-Scientist_R-0000040729"
+    ],
+    [
+      "2023 Summer Student, CFO - Capital Markets Financial Analyst",
+      "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student--CFO---Capital-Markets-Financial-Analyst_R-0000040448"
+    ],
+    [
+      "GAFE Financial Engineering Internship/Co-Op - Summer 2023 (169956)",
+      "https://career17.sapsf.com/sfcareer/jobreqcareerpvt?jobId=169956&company=scotiabank&st=B93127EF014AAA53C583C3EC548E6C3D441B36B0"
+    ],
+    [
+      "Health Science, Life Science Co-op/Developmental Student - Summer 2023",
+      "https://jobs.opg.com/job/Whitby-Health-Science%2C-Life-Science-Co-opDevelopmental-Student-Summer-2023-ON-M1H2Y4/566404417/"
+    ],
+    [
+      "Mechanical Engineering Integration Specialist New",
+      "/IndEX/Home/DisplayPDF/38132"
+    ],
+    [
+      "Process Engineering Student",
+      "https://jobs.exxonmobil.com/Imperial/job/Edmonton-Process-Engineering-Student-AB/975948300/"
+    ],
+    [
+      "Environmental Engineering Student",
+      "https://jobs.exxonmobil.com/Imperial/job/Edmonton-Environmental-Engineering-Student-AB/974857800/"
+    ],
+    [
+      "Mechanical Engineering Student",
+      "https://jobs.exxonmobil.com/Imperial/job/Edmonton-Mechanical-Engineering-Student-AB/974849100/"
+    ],
+    [
+      "COOP Student, Planning New",
+      "https://jobs-emplois.ottawa.ca/city-jobs/job/Ottawa%2C-ON-COOP-Student%2C-Planning-ON/727139747/"
+    ],
+    [
+      "INDUSTRIAL ENGINEERING INTERN",
+      "https://jobs.boeing.com/job/winnipeg/industrial-engineering-intern/185/42482822752"
+    ],
+    [
+      "Design Research Intern/Co-op New",
+      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=395265BR#jobDetails=3114425_5813"
+    ],
+    [
+      "Business Analyst (Full Time, New Grad), Tax Transformation & Technology",
+      "https://careers.kpmg.ca/students/jobs/18667?lang=en-us"
+    ],
+    [
+      "Software Research & Development Advisor (Full Time, New Grad), Tax Incentive Practice",
+      "https://careers.kpmg.ca/students/jobs/18649?lang=en-us"
+    ],
+    [
+      "Intern Bachelors Systems Eng",
+      "https://careers.honeywell.com/us/en/job/HRD902319/Intern-Bachelors-Systems-Eng"
+    ],
+    [
+      "Training internships for female undergraduate and graduate students New",
+      "/IndEX/Home/DisplayPDF/38110"
+    ],
+    [
+      "CARBURANT ALTERNATIFS DURABLES (SAF) POUR L'AVIATION DE DEMAIN New",
+      "https://placementspot.ca/stages/carburant-alternatifs-durables-saf-pour-laviation-de-demain"
+    ],
+    [
+      "SUPPORT À L'INGÉNIERIE DE L'APRÈS-VENTE POUR LE PROGRAMME AVIATION GÉNÉRALE New",
+      "https://placementspot.ca/stages/support-a-lingenierie-de-lapres-vente-pour-le-programme-aviation-generale-3"
+    ],
+    [
+      "VALIDATION DES TECHNOLOGIES MANUFACTURIÈRES ET D'AUTOMATISATION New",
+      "https://placementspot.ca/stages/validation-des-technologies-manufacturieres-et-dautomatisation-3"
+    ],
+    [
+      "CYCLE DE VIE PPH (PAIEMENT PAR HEURE) GESTION DES COÛTS. New",
+      "https://placementspot.ca/stages/cycle-de-vie-pph-paiement-par-heure-gestion-des-couts-3"
+    ],
+    [
+      "INTÉGRITÉ DES DONNÉES - GESTION DE RISQUES CONFORMITÉ AUX RÉGLEMENTATIONS DES SUBSTANCES RESTREINTES New",
+      "https://placementspot.ca/stages/integrite-des-donnees-gestion-de-risques-conformite-aux-reglementations-des-substances-restreintes-1"
+    ],
+    [
+      "COOP Student, Rail Construction Field Program Assistant New",
+      "https://jobs-emplois.ottawa.ca/city-jobs/job/Ottawa%2C-ON-COOP-Student%2C-Rail-Construction-Field-Program-Assistant-ON/727140947/"
+    ],
+    [
+      "COOP Student, Maintenance Analyst Assistant-Transit New",
+      "https://jobs-emplois.ottawa.ca/city-jobs/job/Ottawa%2C-ON-COOP-Student%2C-Maintenance-Analyst-Assistant-Transit-ON/727141747/"
+    ],
+    [
+      "Intercept Support Specialist Co-op New",
+      "/IndEX/Home/DisplayPDF/38080"
+    ],
+    [
+      "SPÉCIALISTE EN DÉPLOIEMENT DE SYSTÈMES New",
+      "https://placementspot.ca/stages/specialiste-en-deploiement-de-systemes"
+    ],
+    [
+      "Co-op Student, Chemical Engineer (Saskatchewan)",
+      "https://jobs.nutrien.com/North-America/job/Saskatoon-Co-op-Student%2C-Chemical-Engineer-%28Saskatchewan%29-SK-S7K-5Z6/563464017/"
+    ],
+    [
+      "Chemistry & Chemical Technology Student May 2023 New",
+      "https://suncor.wd1.myworkdayjobs.com/Suncor_External/job/Edmonton/Chemistry---Chemical-Technology-Student-May-2023_R0004961"
+    ],
+    [
+      "Summer 2023 Intern - Zemax (Optics, MS/PHD)",
+      "https://careers.ansys.com/job/Vancouver-Summer-2023-Intern-Zemax-%28Optics%2C-MSPHD%29-Brit-V6E2M6/933077200/"
+    ],
+    [
+      "Embedded Systems Developer - Rust Intern (Summer/May 2023, 4-8 Months) New",
+      "https://jobs.lever.co/geotab/8ae6f2f2-f883-4104-8a11-70d96cb40729"
+    ],
+    [
+      "Automotive R&D Intern (Summer/May 2023, 4 Months) New",
+      "https://jobs.lever.co/geotab/65787960-ccf4-42bd-93f0-116d326db84e"
+    ],
+    [
+      "Data Analyst Intern (Summer/May 2023, 4 Months) New",
+      "https://jobs.lever.co/geotab/ab578377-a61e-4887-89f6-b9cd91565de4"
+    ],
+    [
+      "Replenishment Analyst - Canadian Tire Corporation",
+      "https://ca.indeed.com/jobs?q=maths+Internship&start=30&pp=gQAtAAAAAAAAAAAAAAAB77Y6WAAOAQAlfGMPR2gglr64rwIAAA&vjk=bd0b26b133c5e936"
+    ],
+    [
+      "Internship - Ottawa",
+      "https://black-mcdonald-limited.breezy.hr/p/c1c3e7756c8901-internship-ottawa"
+    ],
+    [
+      "Gold Rush Summer Intern - Maintenance",
+      "https://ca.indeed.com/jobs?q=Statistic+Internship&start=10&pp=gQAPAAAAAAAAAAAAAAAB7-9txwAVAQAF7NUc79R_fQERfg3YAgwn-BoSAAA&vjk=20ef24cd917cdce4"
+    ],
+    [
+      "Stagiaire, Recherche globale (hiver et/ou été 2023)",
+      "https://cdpq.wd10.myworkdayjobs.com/en-US/CDPQ-recrutement-universitaire/details/Stagiaire--Recherche-globale--hiver-et-ou-t-2023-_R02034"
+    ],
+    [
+      "Stagiaire, Recherche - Analyse quantitative (hiver et/ou été 2023)",
+      "https://cdpq.wd10.myworkdayjobs.com/en-US/CDPQ-recrutement-universitaire/details/Stagiaire--Recherche---Analyse-quantitative--hiver-et-ou-t-2023-_R01992"
+    ],
+    [
+      "Stagiaire, Analyste quantitatif (hiver et/ou été 2023)",
+      "https://cdpq.wd10.myworkdayjobs.com/en-US/CDPQ-recrutement-universitaire/details/Stagiaire--Analyste-quantitatif--hiver-et-ou-t-2023-_R01991"
+    ],
+    [
+      "Stagiaire, Sciences des données (hiver et/ou été 2023)",
+      "https://cdpq.wd10.myworkdayjobs.com/en-US/CDPQ-recrutement-universitaire/jobs/details/Stagiaire--Sciences-des-donnes--hiver-et-ou-t-2023-_R02100"
+    ],
+    [
+      "Stagiaire, Gestion fondamentale systématique (hiver et/ou été 2023)",
+      "https://cdpq.wd10.myworkdayjobs.com/en-US/CDPQ-recrutement-universitaire/jobs/details/Stagiaire--Gestion-fondamentale-systmatique--hiver-et-ou-t-2023-_R01971"
+    ],
+    [
+      "Co-Op/Intern Associate Consultant (Professional Services, Digital Innovation, and Acceleration Services)",
+      "https://boards.greenhouse.io/kinaxis/jobs/6553815002?gh_jid=6553815002"
+    ],
+    [
+      "Electromechanical Assembly Co-op/Intern",
+      "https://careers.nokia.com/jobs/electromechanical-assembly-co-op-intern-92009"
+    ],
+    [
+      "Hardware Developer Eng Co-op/Student",
+      "https://careers.nokia.com/jobs/hardware-developer-eng-co-op-student-93023"
+    ],
+    [
+      "Embedded BSP SW Dev EE/CompE Student",
+      "https://careers.nokia.com/jobs/embedded-bsp-sw-dev-ee-compe-student-93024"
+    ],
+    [
+      "Hardware Component Qualification Student",
+      "https://careers.nokia.com/jobs/hardware-component-qualification-student-93022"
+    ],
+    [
+      "Mechanical Lab Co-op/Intern",
+      "https://careers.nokia.com/jobs/mechanical-lab-co-op-intern-92007"
+    ],
+    [
+      "Mechanical Engineering Intern (Summer/May 2023, 12-16 Months)",
+      "https://jobs.lever.co/geotab/41c6952c-ff2f-4c7a-b3a9-c1b4193dba47"
+    ],
+    [
+      "Process Engineering Intern (Summer/May 2023, 12 Months)",
+      "https://jobs.lever.co/geotab/e376dac9-dc48-4ec8-bace-4fb1b349c956"
+    ],
+    [
+      "Lab Tech Co-op/Intern",
+      "https://careers.nokia.com/jobs/lab-tech-co-op-intern-92008"
+    ],
+    [
+      "Deep Packet Inspection QA Engr. Student",
+      "https://careers.nokia.com/jobs/deep-packet-inspection-qa-engr-student-91763"
+    ],
+    [
+      "Business Operations Analyst Co-op/Intern",
+      "https://careers.nokia.com/jobs/business-operations-analyst-co-op-intern-93033"
+    ],
+    [
+      "7750 MPLS Test Engineer Co-op/Intern",
+      "https://careers.nokia.com/jobs/7750-mpls-test-engineer-co-op-intern-93012"
+    ],
+    [
+      "Delivery Automation SW Dev. Co-op/Intern",
+      "https://aluperf.referrals.selectminds.com/jobs/delivery-automation-sw-dev-co-op-intern-92377"
+    ],
+    [
+      "Co-Op/Intern Developer, Algorithms, Business Applications",
+      "https://boards.greenhouse.io/kinaxis/jobs/6556141002?gh_jid=6556141002"
+    ],
+    [
+      "Co-Op/Intern Developer, Algorithms, Business Applications",
+      "https://boards.greenhouse.io/kinaxis/jobs/6556337002?gh_jid=6556337002"
+    ],
+    [
+      "Velocity - Business Analyst Internship/Co-Op - Summer 2023",
+      "https://jobs.scotiabank.com/Scotiabank%20(default)/job/Toronto-Velocity-Business-Analyst-InternshipCo-Op-Summer-2023-ON/565956717/"
+    ],
+    [
+      "Velocity - Business Analyst Internship/Co-Op - Summer 2023 (8 months)",
+      "https://jobs.scotiabank.com/Scotiabank%20(default)/job/Toronto-Velocity-Business-Analyst-InternshipCo-Op-Summer-2023-%288-months%29-ON/565969017/"
+    ],
+    [
+      "Velocity - Project/Product Management Internship/Co-Op - Summer 2023 (8 months)",
+      "https://jobs.scotiabank.com/Scotiabank%20(default)/job/Toronto-Velocity-ProjectProduct-Management-InternshipCo-Op-Summer-2023-%288-months%29-ON/565974617/"
+    ],
+    [
+      "Share this Job Facility Integrity Co-Op Student (8 month term)",
+      "https://careers.transmountain.com/job/Calgary-Facility-Integrity-Co-Op-Student-%288-month-term%29-Albe/727101047/"
+    ],
+    [
+      "Share this Job Pipeline Integrity Co-Op Student (8 or 12 month term)",
+      "https://careers.transmountain.com/job/Calgary-Pipeline-Integrity-Co-Op-Student-%288-or-12-month-term%29-Albe/726838447/"
+    ],
+    [
+      "City of Toronto",
+      "http://jobs.toronto.ca"
+    ],
+    [
+      "Government of Ontario",
+      "https://www.gojobs.gov.on.ca/Preview.aspx?JobID=191606"
+    ],
+    [
+      "Institut national de la recherche scientifique - INRS",
+      "https://stages.ete.inrs.ca/"
+    ],
+    [
+      "Hydro Québec",
+      "https://emploi.hydroquebec.com"
+    ],
+    [
+      "FDM Group",
+      "https://www.fdmgroup.com/en-ca/ca-co-ops/"
+    ],
     [
       "Student, Graphic Designer",
       "https://omers.wd3.myworkdayjobs.com/OMERS_External/job/Head-Office-Toronto/Student--Graphic-Designer--Summer-2023--8-Months--_JR-4329"
@@ -89,888 +953,20 @@
       "https://careers.kpmg.ca/students/jobs/18431?lang=en-us"
     ],
     [
-      "Co-op/Developmental Student Opportunities- Cornwall, ON May 2023",
-      "https://jobs.opg.com/job/Cornwall-Co-opDevelopmental-Student-Opportunities-Cornwall%2C-ON-May-2023-ON-K6H-5R6/566405517/"
-    ],
-    [
-      "Global Markets, Alternate Solutions Group Summer 2023 Analyst",
-      "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Global-Markets--Alternate-Solutions-Group-Summer-2023-Analyst_2243439"
-    ],
-    [
-      "Global Markets, Summer 2023 Analyst",
-      "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Global-Markets--Summer-2023-Analyst_2243432"
-    ],
-    [
-      "Computer Co-op/Developmental Student Opportunities - Summer 2023",
-      "https://jobs.opg.com/job/Ts%7B12%7D-Z%7B13%7Dl-Mountain-Computer-Co-opDevelopmental-Student-Opportunities-Summer-2023-ON-L1C-3Z8/566402617/"
-    ],
-    [
-      "2023 Summer Student - Risk Analyst, Portfolio Risk Oversight",
-      "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student---Risk-Analyst--Portfolio-Risk-Oversight_R-0000039899"
-    ],
-    [
-      "2023 Summer Student - Data Scientist",
-      "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student---Data-Scientist_R-0000040729"
-    ],
-    [
-      "2023 Summer Student - Python Developer",
-      "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student---Python-Developer_R-0000040611"
-    ],
-    [
-      "2023 Summer Student - Strategy Analyst, RBCx Ventures",
-      "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student---Strategy-Analyst--RBCx-Ventures_R-0000040651"
-    ],
-    [
-      "2023 Summer Student - Junior Analyst/Associate",
-      "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student---Junior-Analyst-Associate_R-0000039935"
-    ],
-    [
-      "2023 Summer Student, CFO - Canadian Banking Data Analyst (4 or 8 months)",
-      "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/Summer-2023-Student--CFO---Canadian-Banking-Data-Analyst--4-or-8-months-_R-0000040431"
-    ],
-    [
-      "2023 Summer Student, CFO - Capital Markets Financial Analyst",
-      "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student--CFO---Capital-Markets-Financial-Analyst_R-0000040448"
-    ],
-    [
-      "2023 Summer Student, CFO - Financial Analyst, Wealth Management Financial Control Co-Op",
-      "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student--CFO---Financial-Analyst--Wealth-Management-Financial-Control-Co-Op_R-0000040078-1"
-    ],
-    [
-      "2023 Summer Student, CFO - Financial Analyst, Wealth Management Finance",
-      "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student--CFO---Financial-Analyst--Wealth-Management-Finance_R-0000040438"
-    ],
-    [
-      "2023 Summer Student - Risk Analyst, Counterparty Credit Risk",
-      "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student---Risk-Analyst--Counterparty-Credit-Risk_R-0000040609"
-    ],
-    [
-      "2023 Summer GRM 12 Months Internship",
-      "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-GRM-12-Months-Internship_R-0000038623"
-    ],
-    [
-      "Mergers and Acquisitions Analyst Internship/Co-op - Summer 2023 (169966)",
-      "https://career17.sapsf.com/sfcareer/jobreqcareerpvt?jobId=169966&company=scotiabank&st=118E3ED2B60B61C1D6A8CCE0C7E9919FA394FE81"
-    ],
-    [
-      "GAFE Financial Engineering Internship/Co-Op - Summer 2023 (169956)",
-      "https://career17.sapsf.com/sfcareer/jobreqcareerpvt?jobId=169956&company=scotiabank&st=B93127EF014AAA53C583C3EC548E6C3D441B36B0"
-    ],
-    [
-      "2023 Summer Student, CFO - Financial Analyst FRR",
-      "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student--CFO---Financial-Analyst-FRR_R-0000041085"
-    ],
-    [
-      "2023 Summer Student - Data Scientist (Halifax)",
-      "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/HALIFAX-Nova-Scotia-Canada/XMLNAME-2023-Summer-Student---Data-Scientist--Halifax-_R-0000040871"
-    ],
-    [
-      "Health Science, Life Science Co-op/Developmental Student - Summer 2023",
-      "https://jobs.opg.com/job/Whitby-Health-Science%2C-Life-Science-Co-opDevelopmental-Student-Summer-2023-ON-M1H2Y4/566404417/"
-    ],
-    [
-      "Career Opportunities: Velocity - Architecture & Design Internship/Co-op - Summer 2023 (169735)",
-      "https://career17.sapsf.com/sfcareer/jobreqcareerpvt?jobId=169735&company=scotiabank&st=5067755DEFAAF34D19007001915CE4DD0B468A0C"
-    ],
-    [
-      "Mechanical Engineering Integration Specialist New",
-      "/IndEX/Home/DisplayPDF/38132"
-    ],
-    [
-      "Process Engineering Student",
-      "https://jobs.exxonmobil.com/Imperial/job/Edmonton-Process-Engineering-Student-AB/975948300/"
-    ],
-    [
-      "Environmental Engineering Student",
-      "https://jobs.exxonmobil.com/Imperial/job/Edmonton-Environmental-Engineering-Student-AB/974857800/"
-    ],
-    [
-      "Stage - ingénieur robotique et automatisation - Vision",
-      "/IndEX/Home/DisplayPDF/37962"
-    ],
-    [
-      "Mechanical Engineering Student",
-      "https://jobs.exxonmobil.com/Imperial/job/Edmonton-Mechanical-Engineering-Student-AB/974849100/"
-    ],
-    [
-      "Strategy, Project Management & Change Co-op Student",
-      "https://careers-oeb.icims.com/jobs/1411/strategy%2c-project-management-%26-change-co-op-student/job?mobile=false&width=1140&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240"
-    ],
-    [
-      "Strategy, Project Management & Change Summer Student",
-      "https://careers-oeb.icims.com/jobs/1410/strategy%2c-project-management-%26-change-summer-student/job"
-    ],
-    [
-      "Natural Gas Co-op Student 2023",
-      "https://careers-oeb.icims.com/jobs/1405/natural-gas-co-op-student-2023/job"
-    ],
-    [
-      "Engineering Co-op Student 2023",
-      "https://careers-oeb.icims.com/jobs/1412/engineering-co-op-student-2023/job"
-    ],
-    [
-      "Co-op Software Developer",
-      "/IndEX/Home/DisplayPDF/38013"
-    ],
-    [
-      "2023 Summer Student Work Placement New",
-      "https://careers.bankofcanada.ca/job/Ottawa-%28Downtown%29-2023-Summer-Student-Work-Placement-ON/566538117/"
-    ],
-    [
-      "2023 Emplois d'été pour étudiants New",
-      "https://careers.bankofcanada.ca/job/Ottawa-%28centre-ville%29-2023-Emplois-d&apos;%C3%A9t%C3%A9-pour-%C3%A9tudiants-ON/566538017/"
-    ],
-    [
-      "ENGINEERING INTERN",
-      "https://jobs.boeing.com/job/winnipeg/engineering-intern/185/42482822784"
-    ],
-    [
-      "COOP Student, Planning New",
-      "https://jobs-emplois.ottawa.ca/city-jobs/job/Ottawa%2C-ON-COOP-Student%2C-Planning-ON/727139747/"
-    ],
-    [
-      "INDUSTRIAL ENGINEERING INTERN",
-      "https://jobs.boeing.com/job/winnipeg/industrial-engineering-intern/185/42482822752"
-    ],
-    [
-      "Design Research Intern/Co-op New",
-      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=395265BR#jobDetails=3114425_5813"
-    ],
-    [
-      "COOP Student, Planning New",
-      "https://jobs-emplois.ottawa.ca/city-jobs/job/Ottawa%2C-ON-COOP-Student%2C-Planning-ON/727139747/"
-    ],
-    [
       "COOP Student, Forestry Assistant New",
       "https://jobs-emplois.ottawa.ca/city-jobs/job/Ottawa%2C-ON-COOP-Student%2C-Forestry-Assistant-ON/727134347/"
-    ],
-    [
-      "2023 Software Engineer Summer Internship",
-      "https://careers.unity.com/position/2023-stagiaire-en-d-veloppement/4614339"
-    ],
-    [
-      "VANCOUVER, CANADA 2023 Software Engineer Summer Internship",
-      "https://careers.unity.com/position/2023-software-engineer-summer-internship/4616974"
-    ],
-    [
-      "2023 Software Engineer Summer Internship",
-      "https://careers.unity.com/position/2023-software-engineer-summer-internship/4616966"
-    ],
-    [
-      "2023 Software Engineer Summer Internship",
-      "https://careers.unity.com/position/2023-software-engineer-summer-internship/4616976"
-    ],
-    [
-      "Software Engineer Intern/Co-op",
-      "https://jobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=361060BR"
-    ],
-    [
-      "Data Engineer Intern/Co-op",
-      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=361063BR#jobDetails=2990032_5813"
-    ],
-    [
-      "Mobile Software Engineer Intern/Co-op",
-      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=361062BR#jobDetails=2990025_5813"
-    ],
-    [
-      "Business Systems Analyst Intern/Co-op",
-      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=361066BR#jobDetails=2990045_5813"
-    ],
-    [
-      "Quality Engineering Intern/Co-op",
-      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=361068BR#jobDetails=2990054_5813"
-    ],
-    [
-      "Cyber Security Intern/Co-op",
-      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=361075BR#jobDetails=2990088_5813"
-    ],
-    [
-      "Cloud / DevOps Engineer Intern/Co-op",
-      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=361081BR#jobDetails=2990106_5813"
     ],
     [
       "Co-op, Quantitative Analyst (Summer 2023) New",
       "https://boards.greenhouse.io/onex/jobs/5467747003?gh_src=36ad8da93us"
     ],
     [
-      "TD Innovation Lab – Innovation Analyst Intern/Co-op New",
-      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=395263BR#jobDetails=3114420_5813"
-    ],
-    [
-      "TD Innovation Lab – Software Developer Intern/Co-op New",
-      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=395264BR#jobDetails=3114424_5813"
-    ],
-    [
-      "User Experience Designer Intern/Co-op New",
-      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=395270BR#jobDetails=3114435_5813"
-    ],
-    [
-      "Business Analyst (Full Time, New Grad), Tax Transformation & Technology",
-      "https://careers.kpmg.ca/students/jobs/18667?lang=en-us"
-    ],
-    [
-      "TD Innovation Lab – User Experience Designer Intern/Co-op New",
-      "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5813&Areq=395258BR#jobDetails=3114411_5813"
-    ],
-    [
-      "Software Research & Development Advisor (Full Time, New Grad), Tax Incentive Practice",
-      "https://careers.kpmg.ca/students/jobs/18649?lang=en-us"
-    ],
-    [
-      "S - Internship Clerk, Library Services, Summer 2023 (Ottawa)",
-      "https://careers.cmhc-schl.gc.ca/job/Ottawa-S-Internship-Clerk%2C-Library-Services%2C-Summer-2023-%28Ottawa%29/564526517/"
-    ],
-    [
-      "Intern Bachelors Systems Eng",
-      "https://careers.honeywell.com/us/en/job/HRD902319/Intern-Bachelors-Systems-Eng"
-    ],
-    [
-      "Tesla Toronto Automation - Mechanical Engineering Internship (Summer 2023)",
-      "https://www.tesla.com/careers/search/job/tesla-toronto-automation-mechanical-engineering-internship-summer-2023-158965"
-    ],
-    [
-      "Tesla Toronto Automation - Project Management Engineering Internship (Summer 2023)",
-      "https://www.tesla.com/careers/search/job/tesla-toronto-automation-project-management-engineering-internship-summer-2023-158935"
-    ],
-    [
-      "S - Internship, Junior Data Scientist, Summer 2023 (Anywhere in Canada)",
-      "https://careers.cmhc-schl.gc.ca/job/Ottawa-S-Internship%2C-Junior-Data-Scientist%2C-Summer-2023-%28Anywhere-in-Canada%29/564800517/"
-    ],
-    [
-      "Training internships for female undergraduate and graduate students New",
-      "/IndEX/Home/DisplayPDF/38110"
-    ],
-    [
-      "S - Internship, Junior Analyst, Data and Information, Summer 2023 (Anywhere in Canada)",
-      "https://careers.cmhc-schl.gc.ca/job/Ottawa-S-Internship-Summer-2023%2C-Junior-Analyst%2C-Data-and-Information-%28Anywhere-in-Canada%29/564611317/"
-    ],
-    [
-      "CARBURANT ALTERNATIFS DURABLES (SAF) POUR L'AVIATION DE DEMAIN New",
-      "https://placementspot.ca/stages/carburant-alternatifs-durables-saf-pour-laviation-de-demain"
-    ],
-    [
-      "SUPPORT À L'INGÉNIERIE DE L'APRÈS-VENTE POUR LE PROGRAMME AVIATION GÉNÉRALE New",
-      "https://placementspot.ca/stages/support-a-lingenierie-de-lapres-vente-pour-le-programme-aviation-generale-3"
-    ],
-    [
-      "VALIDATION DES TECHNOLOGIES MANUFACTURIÈRES ET D'AUTOMATISATION New",
-      "https://placementspot.ca/stages/validation-des-technologies-manufacturieres-et-dautomatisation-3"
-    ],
-    [
-      "CYCLE DE VIE PPH (PAIEMENT PAR HEURE) GESTION DES COÛTS. New",
-      "https://placementspot.ca/stages/cycle-de-vie-pph-paiement-par-heure-gestion-des-couts-3"
-    ],
-    [
-      "INTÉGRITÉ DES DONNÉES - GESTION DE RISQUES CONFORMITÉ AUX RÉGLEMENTATIONS DES SUBSTANCES RESTREINTES New",
-      "https://placementspot.ca/stages/integrite-des-donnees-gestion-de-risques-conformite-aux-reglementations-des-substances-restreintes-1"
-    ],
-    [
-      "AMÉLIORER LA CONFORMITÉ GRÂCE À L'ANALYSE DES DONNÉES New",
-      "https://placementspot.ca/stages/ameliorer-la-conformite-grace-a-lanalyse-des-donnees-1"
-    ],
-    [
-      "IMPLEMENTATION DE LA NOUVELLE VERSION 2020X D'ENOVIA New",
-      "https://placementspot.ca/stages/implementation-de-la-nouvelle-version-2020x-denovia-1"
-    ],
-    [
-      "ANALYSTE AU SOUTIEN DES AFFAIRES POUR LA CONFORMITÉ DU COMMERCE INTERNATIONAL DANS LES OPÉRATIONS New",
-      "https://placementspot.ca/stages/analyste-au-soutien-des-affaires-pour-la-conformite-du-commerce-international-dans-les-operations-3"
-    ],
-    [
-      "STAGIAIRE EN TEST DE SOLUTIONS NUMÉRIQUES DE GESTION DU CYCLE DE VIE DU PRODUIT New",
-      "https://placementspot.ca/stages/stagiaire-en-test-de-solutions-numeriques-de-gestion-du-cycle-de-vie-du-produit"
-    ],
-    [
-      "COOP Student, Rail Construction Field Program Assistant New",
-      "https://jobs-emplois.ottawa.ca/city-jobs/job/Ottawa%2C-ON-COOP-Student%2C-Rail-Construction-Field-Program-Assistant-ON/727140947/"
-    ],
-    [
-      "COOP Student, Maintenance Analyst Assistant-Transit New",
-      "https://jobs-emplois.ottawa.ca/city-jobs/job/Ottawa%2C-ON-COOP-Student%2C-Maintenance-Analyst-Assistant-Transit-ON/727141747/"
-    ],
-    [
-      "COOP Student, Rail Construction Field Program Assistant New",
-      "https://jobs-emplois.ottawa.ca/city-jobs/job/Ottawa%2C-ON-COOP-Student%2C-Rail-Construction-Field-Program-Assistant-ON/727140947/"
-    ],
-    [
-      "COOP Student, Maintenance Analyst Assistant-Transit New",
-      "https://jobs-emplois.ottawa.ca/city-jobs/job/Ottawa%2C-ON-COOP-Student%2C-Maintenance-Analyst-Assistant-Transit-ON/727141747/"
-    ],
-    [
-      "Intercept Support Specialist Co-op New",
-      "/IndEX/Home/DisplayPDF/38080"
-    ],
-    [
-      "SPÉCIALISTE EN DÉPLOIEMENT DE SYSTÈMES New",
-      "https://placementspot.ca/stages/specialiste-en-deploiement-de-systemes"
-    ],
-    [
-      "DÉVELOPPEUR C++ « BACK-END » ET RÉALITÉ MIXTE New",
-      "https://placementspot.ca/stages/developpeur-c-back-end-et-realite-mixte-5"
-    ],
-    [
-      "DÉVELOPPEUR DEVOPS New",
-      "https://placementspot.ca/stages/developpeur-devops-5"
-    ],
-    [
-      "DÉVELOPPEUR LOGICIEL - RÉSEAUX INTERFACES ET OUTILS New",
-      "https://placementspot.ca/stages/developpeur-logiciel-reseaux-interfaces-et-outils-2"
-    ],
-    [
-      "DÉVELOPPEUR LOGICIEL - INFRASTRUCTURE New",
-      "https://placementspot.ca/stages/developpeur-logiciel-infrastructure-5"
-    ],
-    [
-      "SOFTWARE DEVELOPER – TCMS TEAM New",
-      "https://placementspot.ca/stages/software-developer-tcms-team"
-    ],
-    [
-      "Summer 2023 Intern, Data Analyst (Business Technology)",
-      "https://salesforce.wd1.myworkdayjobs.com/en-US/External_Career_Site/details/Summer-2023-Intern--Data-Analyst--Business-Technology-_JR166008-1?workerSubType=c756cea16ad744eeb7b62d1c7b054ac1&locations=0a44c097c9704647a233fd0166cf7dbb&locations="
-    ],
-    [
-      "Co-op Student, Engineering (Alberta)",
-      "https://jobs.nutrien.com/North-America/job/Calgary-Co-op-Student%2C-Engineering-%28Canada%29-AB-T2P-2N1/563324717/"
-    ],
-    [
-      "Co-op Student, Chemical Engineering (Alberta)",
-      "https://jobs.nutrien.com/North-America/job/Saskatoon-Co-op-Student%2C-Chemical-Engineering-%28Alberta%29-SK-S7K-5Z6/563463817/"
-    ],
-    [
-      "Co-op Student, Chemical Engineer (Saskatchewan)",
-      "https://jobs.nutrien.com/North-America/job/Saskatoon-Co-op-Student%2C-Chemical-Engineer-%28Saskatchewan%29-SK-S7K-5Z6/563464017/"
-    ],
-    [
-      "Co-op Student, Computer Science (Saskatchewan)",
-      "https://jobs.nutrien.com/North-America/job/Saskatoon-Co-op-Student%2C-Computer-Science-%28Saskatchewan%29-SK-S7K-5Z6/563339617/"
-    ],
-    [
-      "Co-op Student, Computer Science (Alberta)",
-      "https://jobs.nutrien.com/North-America/job/Calgary-Co-op-Student%2C-Computer-Science-%28Alberta%29-AB-T2P-2N1/563340217/"
-    ],
-    [
-      "Summer 2023 Intern - Zemax (Optics, MS/PHD)",
-      "https://careers.ansys.com/job/Vancouver-Summer-2023-Intern-Zemax-%28Optics%2C-MSPHD%29-Brit-V6E2M6/933077200/"
-    ],
-    [
-      "Software Development Engineer Intern - 2023 (Canada)",
-      "https://www.amazon.jobs/en/jobs/2114265/software-development-engineer-intern-2023-canada"
-    ],
-    [
-      "Associate Consultant Intern, Summer 2023",
-      "https://careers.mastercard.com/us/en/job/R-173139/Associate-Consultant-Intern-Summer-2023"
-    ],
-    [
-      "Embedded Systems Developer - Rust Intern (Summer/May 2023, 4-8 Months) New",
-      "https://jobs.lever.co/geotab/8ae6f2f2-f883-4104-8a11-70d96cb40729"
-    ],
-    [
-      "Automotive R&D Intern (Summer/May 2023, 4 Months) New",
-      "https://jobs.lever.co/geotab/65787960-ccf4-42bd-93f0-116d326db84e"
-    ],
-    [
-      "C++ Engineer Intern - (Summer 2023)",
-      "https://ea.gr8people.com/jobs/175722/c-engineer-intern-summer-2023"
-    ],
-    [
-      "Software Engineer Summer Intern - TS4 Client",
-      "https://ea.gr8people.com/jobs/175923/software-engineer-summer-intern-ts4-client"
-    ],
-    [
-      "Product Manager Intern (Summer 2023)",
-      "https://ea.gr8people.com/jobs/175941/product-manager-intern-summer-2023"
-    ],
-    [
-      "Software Engineer Intern",
-      "https://ea.gr8people.com/jobs/175926/software-engineer-intern"
-    ],
-    [
-      "Design Intern (Summer/May 2023, 4-8 Month) New",
-      "https://jobs.lever.co/geotab/110ae952-6eb8-4855-8ea9-021f1df736fa"
-    ],
-    [
-      "Software Developer Intern, MyGeotab (Summer/May 2023, 4-16 Month) New",
-      "https://jobs.lever.co/geotab/b3e85a35-9b57-4969-bdb2-632de114899b"
-    ],
-    [
-      "Data Analyst Intern (Summer/May 2023, 4 Months) New",
-      "https://jobs.lever.co/geotab/ab578377-a61e-4887-89f6-b9cd91565de4"
-    ],
-    [
-      "Software Engineer Intern (Summer 2023)",
-      "https://ea.gr8people.com/jobs/175867/software-engineer-intern-summer-2023"
-    ],
-    [
-      "Replenishment Analyst - Canadian Tire Corporation",
-      "https://ca.indeed.com/jobs?q=maths+Internship&start=30&pp=gQAtAAAAAAAAAAAAAAAB77Y6WAAOAQAlfGMPR2gglr64rwIAAA&vjk=bd0b26b133c5e936"
-    ],
-    [
-      "Internship - Ottawa",
-      "https://black-mcdonald-limited.breezy.hr/p/c1c3e7756c8901-internship-ottawa"
-    ],
-    [
-      "Gold Rush Summer Intern - Maintenance",
-      "https://ca.indeed.com/jobs?q=Statistic+Internship&start=10&pp=gQAPAAAAAAAAAAAAAAAB7-9txwAVAQAF7NUc79R_fQERfg3YAgwn-BoSAAA&vjk=20ef24cd917cdce4"
-    ],
-    [
-      "Stagiaire en gestion de projet / Project Management Intern",
-      "https://ca.indeed.com/jobs?q=maths+Internship&start=10&pp=gQAPAAAAAAAAAAAAAAAB77Y6WAARAQBaGOX69n-5t-QMGpCfZSYAAA&vjk=8573e0615fc6a953"
-    ],
-    [
-      "Consultant Intern - Industry Transformation (Summer - 12 months)",
-      "https://ca.indeed.com/Actuarial-Intern-jobs?vjk=5443476f15833636"
-    ],
-    [
-      "Stagiaire, Analytique (hiver et/ou été 2023)",
-      "https://cdpq.wd10.myworkdayjobs.com/en-US/CDPQ-recrutement-universitaire/jobs/details/Stagiaire--Analytique--hiver-et-ou-t-2023-_R01976"
-    ],
-    [
-      "Stagiaire, Recherche globale (hiver et/ou été 2023)",
-      "https://cdpq.wd10.myworkdayjobs.com/en-US/CDPQ-recrutement-universitaire/details/Stagiaire--Recherche-globale--hiver-et-ou-t-2023-_R02034"
-    ],
-    [
-      "Stagiaire, Recherche - Analyse quantitative (hiver et/ou été 2023)",
-      "https://cdpq.wd10.myworkdayjobs.com/en-US/CDPQ-recrutement-universitaire/details/Stagiaire--Recherche---Analyse-quantitative--hiver-et-ou-t-2023-_R01992"
-    ],
-    [
-      "Stagiaire, Analyste quantitatif (hiver et/ou été 2023)",
-      "https://cdpq.wd10.myworkdayjobs.com/en-US/CDPQ-recrutement-universitaire/details/Stagiaire--Analyste-quantitatif--hiver-et-ou-t-2023-_R01991"
-    ],
-    [
-      "Stagiaire, Sciences des données (hiver et/ou été 2023)",
-      "https://cdpq.wd10.myworkdayjobs.com/en-US/CDPQ-recrutement-universitaire/jobs/details/Stagiaire--Sciences-des-donnes--hiver-et-ou-t-2023-_R02100"
-    ],
-    [
-      "Stagiaire, Gestion fondamentale systématique (hiver et/ou été 2023)",
-      "https://cdpq.wd10.myworkdayjobs.com/en-US/CDPQ-recrutement-universitaire/jobs/details/Stagiaire--Gestion-fondamentale-systmatique--hiver-et-ou-t-2023-_R01971"
-    ],
-    [
-      "Co-Op/Intern Associate Consultant (Professional Services, Digital Innovation, and Acceleration Services)",
-      "https://boards.greenhouse.io/kinaxis/jobs/6553815002?gh_jid=6553815002"
-    ],
-    [
-      "Product Coordinator Intern (Summer/May 2023, 12 Month)",
-      "https://jobs.lever.co/geotab/f9f7201f-85a3-4dbf-b351-26e99a916827"
-    ],
-    [
-      "Electromechanical Assembly Co-op/Intern",
-      "https://careers.nokia.com/jobs/electromechanical-assembly-co-op-intern-92009"
-    ],
-    [
-      "UI Developer Co-op/Intern",
-      "https://careers.nokia.com/jobs/ui-developer-co-op-intern-92134"
-    ],
-    [
-      "Hardware Developer Eng Co-op/Student",
-      "https://careers.nokia.com/jobs/hardware-developer-eng-co-op-student-93023"
-    ],
-    [
-      "Embedded BSP SW Dev EE/CompE Student",
-      "https://careers.nokia.com/jobs/embedded-bsp-sw-dev-ee-compe-student-93024"
-    ],
-    [
-      "Hardware Component Qualification Student",
-      "https://careers.nokia.com/jobs/hardware-component-qualification-student-93022"
-    ],
-    [
-      "Service Router Platform Test Dev Student",
-      "https://careers.nokia.com/jobs/service-router-platform-test-dev-student-91772"
-    ],
-    [
-      "Real-time C/C++ Software Dev Student",
-      "https://careers.nokia.com/jobs/real-time-c-c%2B%2B-software-dev-student-92590"
-    ],
-    [
-      "DevOps Engineer Co-op/Intern",
-      "https://careers.nokia.com/jobs/devops-engineer-co-op-intern-93019"
-    ],
-    [
-      "Application Engineer DocOps Co-op/Intern",
-      "https://careers.nokia.com/jobs/application-engineer-docops-co-op-intern-93671"
-    ],
-    [
-      "Customer Support Engineer Co-op/Intern",
-      "https://aluperf.referrals.selectminds.com/jobs/customer-support-engineer-co-op-intern-92218"
-    ],
-    [
-      "Customer Applications Eng Co-op/Intern",
-      "https://aluperf.referrals.selectminds.com/jobs/customer-applications-eng-co-op-intern-93684"
-    ],
-    [
-      "Network Automation Eng. Co-op/ Intern",
-      "https://aluperf.referrals.selectminds.com/jobs/network-automation-eng-co-op-intern-93221"
-    ],
-    [
-      "IP Customer App Eng Co-op/Intern",
-      "https://careers.nokia.com/jobs/ip-customer-app-eng-co-op-intern-92378"
-    ],
-    [
-      "Software Developer Intern (Summer/May 2023, 8-12 Month)",
-      "https://jobs.lever.co/geotab/cf965e66-d65e-4951-a296-b0e434934d17"
-    ],
-    [
-      "Embedded Systems Developer Intern (Summer/May 2023, 12-16 Months)",
-      "https://jobs.lever.co/geotab/2253e53f-496f-41dc-a1de-0d6fc3a8d7c5"
-    ],
-    [
-      "Embedded Developer Intern (Summer/May 2023, 12-16 Months)",
-      "https://jobs.lever.co/geotab/7c086189-a415-4a85-ab42-a71044cfaa11"
-    ],
-    [
-      "Embedded System Developer Intern, IOX Development (Summer/May 2023, 12-16 Months)",
-      "https://jobs.lever.co/geotab/8972b52f-fcb2-47f8-aa75-7f3635f972ca"
-    ],
-    [
-      "Mechanical Lab Co-op/Intern",
-      "https://careers.nokia.com/jobs/mechanical-lab-co-op-intern-92007"
-    ],
-    [
-      "Mechanical Engineering Intern (Summer/May 2023, 12-16 Months)",
-      "https://jobs.lever.co/geotab/41c6952c-ff2f-4c7a-b3a9-c1b4193dba47"
-    ],
-    [
-      "Process Engineering Intern (Summer/May 2023, 12 Months)",
-      "https://jobs.lever.co/geotab/e376dac9-dc48-4ec8-bace-4fb1b349c956"
-    ],
-    [
-      "Hardware Developer Intern (Summer/May 2023, 12-16 Months)",
-      "https://jobs.lever.co/geotab/d5d0dc34-1b28-4c9f-99c4-91c3ef6ad9bf"
-    ],
-    [
-      "C++ Engineer Intern - (Summer 2023)",
-      "https://ea.gr8people.com/jobs/175722/c-engineer-intern-summer-2023"
-    ],
-    [
-      "Velocity - Network Security Administrator Internship/Co-Op - Summer 2023",
-      "https://jobs.scotiabank.com/Tangerine/job/Toronto-Velocity-Network-Security-Administrator-InternshipCo-Op-Summer-2023-ON/566098417/"
-    ],
-    [
-      "Velocity - Technical Services Support Internship/Co-Op - Summer 2023",
-      "https://jobs.scotiabank.com/Tangerine/job/Toronto-Velocity-Technical-Services-Support-InternshipCo-Op-Summer-2023-ON/566099317/"
-    ],
-    [
-      "Velocity - Quality Assurance Engineer Internship/Co-Op - Summer 2023",
-      "https://jobs.scotiabank.com/Tangerine/job/Toronto-Velocity-Quality-Assurance-Engineer-InternshipCo-Op-Summer-2023-ON/566100417/"
-    ],
-    [
-      "Velocity - Software Engineer Internship/Co-Op - Summer 2023",
-      "https://jobs.scotiabank.com/Scotiabank%20(default)/job/Toronto-Velocity-Software-Engineer-InternshipCo-Op-Summer-2023-ON/565956517/"
-    ],
-    [
-      "Velocity - Software Engineer Internship/Co-Op - Summer 2023 (8 months)",
-      "https://jobs.scotiabank.com/Scotiabank%20(default)/job/Toronto-Velocity-Software-Engineer-InternshipCo-Op-Summer-2023-%288-months%29-ON/565967417/"
-    ],
-    [
-      "Velocity - Data Scientist Internship/Co-Op - Summer 2023",
-      "https://jobs.scotiabank.com/Scotiabank%20(default)/job/Toronto-Velocity-Data-Scientist-InternshipCo-Op-Summer-2023-ON/565956117/"
-    ],
-    [
-      "Velocity - Data Scientist Internship/Co-Op - Summer 2023 (8 months)",
-      "https://jobs.scotiabank.com/Scotiabank%20(default)/job/Toronto-Velocity-Data-Scientist-InternshipCo-Op-Summer-2023-%288-months%29-ON/565968517/"
-    ],
-    [
-      "Velocity - Data Engineer Internship/Co-Op - Summer 2023",
-      "https://jobs.scotiabank.com/Scotiabank%20(default)/job/Toronto-Velocity-Data-Engineer-InternshipCo-Op-Summer-2023-ON/565956417/"
-    ],
-    [
-      "Velocity - Data Engineer Internship/Co-Op - Summer 2023 (8 months)",
-      "https://jobs.scotiabank.com/Scotiabank%20(default)/job/Toronto-Velocity-Data-Engineer-InternshipCo-Op-Summer-2023-%288-months%29-ON/565972317/"
-    ],
-    [
-      "UX Designer Co-op/Intern",
-      "https://careers.nokia.com/jobs/ux-designer-co-op-intern-91361"
-    ],
-    [
-      "Lab Tech Co-op/Intern",
-      "https://careers.nokia.com/jobs/lab-tech-co-op-intern-92008"
-    ],
-    [
-      "SW Tools Development Co-op/Intern",
-      "https://careers.nokia.com/jobs/sw-tools-development-co-op-intern-92304"
-    ],
-    [
-      "WaveSuite Analytics Tester Co-op/Intern",
-      "https://careers.nokia.com/jobs/wavesuite-analytics-tester-co-op-intern-92904"
-    ],
-    [
-      "WaveSuite Application Tester Co-Op/Intern",
-      "https://careers.nokia.com/jobs/wavesuite-application-tester-co-op-intern-92903"
-    ],
-    [
-      "IT Developer - Co-op/Intern",
-      "https://careers.nokia.com/jobs/it-developer-co-op-intern-92947"
-    ],
-    [
-      "Security Software Developer Co-Op/Intern",
-      "https://careers.nokia.com/jobs/security-software-developer-co-op-intern-93555"
-    ],
-    [
-      "SW Endpoint Detection & Response Student",
-      "https://careers.nokia.com/jobs/sw-endpoint-detection-response-student-93034"
-    ],
-    [
-      "Software R&D Digital Identity Student",
-      "https://careers.nokia.com/jobs/software-r-d-digital-identity-student-93032"
-    ],
-    [
-      "Malware Research Assistant Co-op/Intern",
-      "https://careers.nokia.com/jobs/malware-research-assistant-co-op-intern-93035"
-    ],
-    [
-      "Technical Communication Co-op/Intern",
-      "https://careers.nokia.com/jobs/technical-communication-co-op-intern-93408"
-    ],
-    [
-      "Software Engineer Co-op/Intern",
-      "https://careers.nokia.com/jobs/software-engineer-co-op-intern-93556"
-    ],
-    [
-      "Deep Packet Inspection QA Engr. Student",
-      "https://careers.nokia.com/jobs/deep-packet-inspection-qa-engr-student-91763"
-    ],
-    [
-      "Business Operations Analyst Co-op/Intern",
-      "https://careers.nokia.com/jobs/business-operations-analyst-co-op-intern-93033"
-    ],
-    [
-      "Interface UX Designer Co-op/Intern",
-      "https://careers.nokia.com/jobs/interface-ux-designer-co-op-intern-93030"
-    ],
-    [
-      "Web GUI Software Developer Co-op/Intern",
-      "https://careers.nokia.com/jobs/web-gui-software-developer-co-op-intern-93038"
-    ],
-    [
-      "Network Automation Practice Co-op/Intern",
-      "https://careers.nokia.com/jobs/network-automation-practice-co-op-intern-93031"
-    ],
-    [
-      "7750 MPLS Test Engineer Co-op/Intern",
-      "https://careers.nokia.com/jobs/7750-mpls-test-engineer-co-op-intern-93012"
-    ],
-    [
-      "7750 SR System Test. Engineer Student",
-      "https://careers.nokia.com/jobs/7750-sr-system-test-engineer-student-93026"
-    ],
-    [
-      "7750 SR OAM Test. Engineer Student",
-      "https://careers.nokia.com/jobs/7750-sr-oam-test-engineer-student-93220"
-    ],
-    [
-      "Software Tester Co-op/Intern",
-      "https://careers.nokia.com/jobs/software-tester-co-op-intern-93015"
-    ],
-    [
-      "Software Design Co-op/Intern",
-      "https://careers.nokia.com/jobs/software-design-co-op-intern-93018"
-    ],
-    [
-      "SW Design-Middleware Platform Student",
-      "https://careers.nokia.com/jobs/sw-design-middleware-platform-student-93013"
-    ],
-    [
-      "Software Designer Co-op/Intern",
-      "https://careers.nokia.com/jobs/software-designer-co-op-intern-93014"
-    ],
-    [
-      "Software Tester Co-op/Intern",
-      "https://careers.nokia.com/jobs/software-tester-co-op-intern-93017"
-    ],
-    [
-      "Software Test Specialist Co-op/Intern",
-      "https://careers.nokia.com/jobs/software-test-specialist-co-op-intern-93212"
-    ],
-    [
-      "Software Test Automation Co-op/Intern",
-      "https://careers.nokia.com/jobs/software-test-automation-co-op-intern-93010"
-    ],
-    [
-      "Cloud Automation Engineer Co-op/Intern",
-      "https://careers.nokia.com/jobs/cloud-automation-engineer-co-op-intern-93016"
-    ],
-    [
-      "Software Developer Co-op/ Intern",
-      "https://aluperf.referrals.selectminds.com/jobs/software-developer-co-op-intern-92209"
-    ],
-    [
-      "Software Developer Co-op",
-      "https://aluperf.referrals.selectminds.com/jobs/software-developer-co-op-91885"
-    ],
-    [
-      "Delivery Automation SW Dev. Co-op/Intern",
-      "https://aluperf.referrals.selectminds.com/jobs/delivery-automation-sw-dev-co-op-intern-92377"
-    ],
-    [
-      "Co-Op/Intern Developer, Algorithms, Business Applications",
-      "https://boards.greenhouse.io/kinaxis/jobs/6556141002?gh_jid=6556141002"
-    ],
-    [
-      "Co-Op/Intern Developer, Algorithms, Business Applications",
-      "https://boards.greenhouse.io/kinaxis/jobs/6556337002?gh_jid=6556337002"
-    ],
-    [
-      "Co-Op/Intern Developer, Clients, Front End Technologies",
-      "https://boards.greenhouse.io/kinaxis/jobs/6554753002?gh_jid=6554753002"
-    ],
-    [
-      "Co-Op/Intern Developer, DevOps",
-      "https://boards.greenhouse.io/kinaxis/jobs/6554825002?gh_jid=6554825002"
-    ],
-    [
-      "Co-Op/Intern Developer, Embedded Algorithms, Developer Framework",
-      "https://boards.greenhouse.io/kinaxis/jobs/6548366002?gh_jid=6548366002"
-    ],
-    [
-      "Co-Op/Intern Developer, Machine Learning",
-      "https://boards.greenhouse.io/kinaxis/jobs/6554209002?gh_jid=6554209002"
-    ],
-    [
-      "Co-Op/Intern Software Developer, Product Verification",
-      "https://boards.greenhouse.io/kinaxis/jobs/6548459002?gh_jid=6548459002"
-    ],
-    [
-      "Co-Op/Intern Software Engineer, AI Platform",
-      "https://boards.greenhouse.io/kinaxis/jobs/6548892002?gh_jid=6548892002"
-    ],
-    [
-      "Co-Op/Intern Test Developer, Product Verification",
-      "https://boards.greenhouse.io/kinaxis/jobs/6555852002?gh_jid=6555852002"
-    ],
-    [
-      "Co-Op/Intern Test Developer, Product Verification",
-      "https://boards.greenhouse.io/kinaxis/jobs/6548908002?gh_jid=6548908002"
-    ],
-    [
-      "Software Developer Intern, Active Insights (Summer/May 2023, 8-12 months)",
-      "https://jobs.lever.co/geotab/e2c345d7-a1a1-4c41-9b9e-03244008e85f"
-    ],
-    [
-      "Co-Op/Intern Test Developer, Front End Technologies",
-      "https://boards.greenhouse.io/kinaxis/jobs/6562269002?gh_jid=6562269002"
-    ],
-    [
-      "Software Developer in Test Co-op/Intern",
-      "https://careers.nokia.com/jobs/software-developer-in-test-co-op-intern-94114"
-    ],
-    [
-      "Software Developer in Test Co-op/Intern",
-      "https://careers.nokia.com/jobs/software-developer-in-test-co-op-intern-94113"
-    ],
-    [
-      "Software Developer Co-op/Intern",
-      "https://careers.nokia.com/jobs/software-developer-co-op-intern-94118"
-    ],
-    [
-      "Software Developer Co-op/Intern",
-      "https://careers.nokia.com/jobs/software-developer-co-op-intern-94119"
-    ],
-    [
-      "Automation Developer Co-op/Intern",
-      "https://careers.nokia.com/jobs/automation-developer-co-op-intern-94116"
-    ],
-    [
-      "Project Management Assistant Student",
-      "https://careers.nokia.com/jobs/project-management-assistant-student-93266"
-    ],
-    [
-      "Data Analyst Intern (Summer/May 2023, 8-12 Months)",
-      "https://jobs.lever.co/geotab/128d0829-b6f2-4e10-9a8c-430742b0d1a6"
-    ],
-    [
-      "Velocity - Business Analyst Internship/Co-Op - Summer 2023",
-      "https://jobs.scotiabank.com/Scotiabank%20(default)/job/Toronto-Velocity-Business-Analyst-InternshipCo-Op-Summer-2023-ON/565956717/"
-    ],
-    [
-      "Velocity - Business Analyst Internship/Co-Op - Summer 2023 (8 months)",
-      "https://jobs.scotiabank.com/Scotiabank%20(default)/job/Toronto-Velocity-Business-Analyst-InternshipCo-Op-Summer-2023-%288-months%29-ON/565969017/"
-    ],
-    [
-      "Velocity - Project/Product Management Internship/Co-Op - Summer 2023 (8 months)",
-      "https://jobs.scotiabank.com/Scotiabank%20(default)/job/Toronto-Velocity-ProjectProduct-Management-InternshipCo-Op-Summer-2023-%288-months%29-ON/565974617/"
-    ],
-    [
-      "Summer 2023 Sales & Trading Analyst Internship Calgary, Toronto and Montreal",
-      "https://jobs.nbc.ca/job/toronto/summer-2023-sales-and-trading-analyst-internship-calgary-toronto-and-montreal/5889/35822108576"
-    ],
-    [
-      "Share this Job Facility Integrity Co-Op Student (8 month term)",
-      "https://careers.transmountain.com/job/Calgary-Facility-Integrity-Co-Op-Student-%288-month-term%29-Albe/727101047/"
-    ],
-    [
-      "Share this Job Pipeline Integrity Co-Op Student (8 or 12 month term)",
-      "https://careers.transmountain.com/job/Calgary-Pipeline-Integrity-Co-Op-Student-%288-or-12-month-term%29-Albe/726838447/"
-    ],
-    [
-      "Summer 2023 Intern - Electronics",
-      "https://careers.ansys.com/job/Vancouver-Summer-2023-Intern-Electronics-Brit-V6E2M6/933034000/"
-    ],
-    [
-      "Summer 2023 Intern - Electronics (MS)",
-      "https://careers.ansys.com/job/Vancouver-Summer-2023-Intern-Electronics-%28MS%29-Brit-V6E2M6/932139300/"
-    ],
-    [
-      "C++ Software Engineer Co-Op (Spring/Summer 2023) 8 months",
-      "https://ea.gr8people.com/jobs/173661/c-software-engineer-co-op-springsummer-2023-8-months?geo_location=ChIJs0-pQ_FzhlQRi_OBm-qWkbs"
-    ],
-    [
-      "Backend Software Engineer Summer Intern",
-      "https://ea.gr8people.com/jobs/176035/backend-software-engineer-summer-intern"
-    ],
-    [
-      "Machine Learning Intern (Summer 2023)",
-      "https://ea.gr8people.com/jobs/176651/machine-learning-intern-summer-2023"
-    ],
-    [
       "TRIUMF",
       "https://triumf.wd10.myworkdayjobs.com/student-jobs"
     ],
     [
-      "City of Toronto",
-      "http://jobs.toronto.ca"
-    ],
-    [
-      "Government of Ontario",
-      "https://www.gojobs.gov.on.ca/Preview.aspx?JobID=191606"
-    ],
-    [
-      "Institut national de la recherche scientifique - INRS",
-      "https://stages.ete.inrs.ca/"
-    ],
-    [
-      "Blackberry",
-      "https://bb.wd3.myworkdayjobs.com/Student/jobs"
-    ],
-    [
       "Hydro Québec New",
       "https://emploi.hydroquebec.com"
-    ],
-    [
-      "Tesla",
-      "https://www.tesla.com/careers/search/?type=3&site=CA"
-    ],
-    [
-      "Government of Ontario",
-      "https://www.gojobs.gov.on.ca/Preview.aspx?Language=English&JobID=186517"
-    ],
-    [
-      "Ontario Power Generation",
-      "https://jobs.opg.com/"
-    ],
-    [
-      "Merck - Career Page",
-      "https://jobs.merck.com/us/en/jointalentcommunity"
-    ],
-    [
-      "FDM Group",
-      "https://www.fdmgroup.com/en-ca/ca-co-ops/"
-    ],
-    [
-      "The Walt Disney Company",
-      "https://jobs.disneycareers.com/search-jobs?glat=45.42519&glon=-75.67863"
-    ],
-    [
-      "Definity",
-      "https://careers.definityfinancial.com/search/jobs/in?location=&page=2&q=intern#"
     ]
   ]
 }

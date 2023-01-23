@@ -49,5 +49,38 @@ const summerJobs = {
   jobPostings: jobPostings,
 };
 
-console.log("Parsed:", summerJobs.jobPostings.length, "Jobs");
+//used to count the number of jobs added
+let n_jobs = 0;
+
+/*
+ * Removes duplicate jobs
+ */
+function unique(array) {
+  return array.filter((element, index, originalArray) => {
+    return (
+      originalArray.findIndex((t) => {
+        return t[0] === element[0] && t[1] === element[1];
+      }) === index
+    );
+  });
+}
+
+try {
+  const jobs = JSON.parse(fs.readFileSync("indEX.json", "utf-8"))?.jobPostings;
+
+  if (jobs) {
+    summerJobs.jobPostings = summerJobs.jobPostings.concat(jobs);
+    n_jobs = jobs.length;
+  }
+} catch (err) {}
+
+//remove duplicates
+summerJobs.jobPostings = unique(summerJobs.jobPostings);
+
+//count the number of jobs added
+n_jobs = summerJobs.jobPostings.length - n_jobs;
+
+console.log("Added:", n_jobs, "Jobs");
+console.log("Total:", summerJobs.jobPostings.length, "Jobs");
+
 fs.writeFileSync("indEX.json", JSON.stringify(summerJobs, null, 2));
