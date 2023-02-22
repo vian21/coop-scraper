@@ -80,7 +80,7 @@
                         </p>
                         <form action="/IndEX/Authentication/LogOff" class="nav navbar-nav" id="logoutForm"
                             method="post"><input name="__RequestVerificationToken" type="hidden"
-                                value="vDsIgGJgHGEKDVpshB2873jyl7D6bx0mVewYFVVw8n-fV6UCBCIsVyC-OuIEIviaaS1LM60RQJQ-NuZAeGeamZaMa_o9pxf3_fJZH2Sz5b01" />
+                                value="vDnNFuS8miHBHI4QvcZpj9-D-hNE-6BTiPmzjXAHBlHHM8aoZ9sBLx8EsAUV_N5gCaEtiuEm9_DyWasD1O_r2SiT5EwXD8UwdkgD4mwZ5is1" />
                             <a style="padding-right: 5px;padding-left: 5px;margin-left:5px;"
                                 class="btn btn-lg  dropdown-item"
                                 href="javascript:document.getElementById('logoutForm').submit()"> Sign Out</a>
@@ -180,18 +180,18 @@
 
 
             function LoadPref() {
-                document.getElementById("localID").checked = ;
-                document.getElementById("natID").checked = ;
-                document.getElementById("interID").checked = ;
+                document.getElementById("localID").checked = true;
+                document.getElementById("natID").checked = true;
+                document.getElementById("interID").checked = false;
 
-                document.getElementById("TermId").value = ;
+                document.getElementById("TermId").value = System.Collections.Generic.List`1[System.Nullable`1[System.Int32]];
 
                 //Load Programs
                 var progElement = document.getElementById("ProgramListBox");
                 var programsToLoad = new Array();
                 programsToLoad = [
-                    progElement.selectedIndex = -1;
-        for (var i = 0; i < progElement.options.length; i++) {
+                    7, 13, 26]; progElement.selectedIndex = -1;
+                for (var i = 0; i < progElement.options.length; i++) {
                     for (var j = 0; j < programsToLoad.length; j++) {
                         if (progElement.options[i].value == programsToLoad[j]) {
                             progElement.options[i].selected = true;
@@ -203,8 +203,8 @@
                 var facElement = document.getElementById("FacultyListBox");
                 var FacultyToLoad = new Array();
                 FacultyToLoad = [
-                    facElement.selectedIndex = -1;
-        for (var i = 0; i < facElement.options.length; i++) {
+                ]; facElement.selectedIndex = -1;
+                for (var i = 0; i < facElement.options.length; i++) {
                     for (var j = 0; j < FacultyToLoad.length; j++) {
                         if (facElement.options[i].value == FacultyToLoad[j]) {
                             facElement.options[i].selected = true;
@@ -262,7 +262,7 @@
 
                 <div style="float:right; margin-top: -10px;">
 
-                    <h4><a href="/IndEX/Lang/changeLan?searchlocal=true&amp;searchnat=true&amp;searchinter=true&amp;lang=fr"
+                    <h4><a href="/IndEX/Lang/changeLan?searchlocal=true&amp;searchnat=true&amp;lang=fr"
                             style="float:right">Fran&#231;ais</a></h4>
 
                 </div>
@@ -286,7 +286,7 @@
                                 onclick="programsToshow()"
                                 style=" overflow-x: auto;  font-size: medium ; height: 130px">
                                 <option value="2">Arts</option>
-                                <option selected="selected" value="3">Engineering</option>
+                                <option value="3">Engineering</option>
                                 <option value="12">Law (Civil Law Section)</option>
                                 <option value="4">Science</option>
                                 <option value="5">Social Sciences</option>
@@ -372,7 +372,7 @@
                                 <option value="76">Public Administration</option>
                                 <option value="22">Sociology</option>
                                 <option selected="selected" value="26">Software Engineering</option>
-                                <option value="757">Statistics</option>
+                                <option selected="selected" value="757">Statistics</option>
                                 <option value="9">Translation</option>
                                 <option value="471">Women&#39;s Studies</option>
                             </select>
@@ -437,8 +437,8 @@
                             </div>
 
                             <div class="checkbox">
-                                <input checked="checked" id="interID" name="searchinter" type="checkbox"
-                                    value="true" /><input name="searchinter" type="hidden" value="false" />
+                                <input id="interID" name="searchinter" type="checkbox" value="true" /><input
+                                    name="searchinter" type="hidden" value="false" />
                             </div>
                             <div class="label label-primary" style="font-size: medium">
                                 <label class="control-label" for="International">International</label>
@@ -510,26 +510,26 @@
 
                                         <div class="form-group">
                                             <a class="badge  "
-                                                href="/IndEX/?sortOrder=tit_asc&amp;searchlocal=true&amp;searchnat=true&amp;searchinter=true"
+                                                href="/IndEX/?sortOrder=tit_asc&amp;searchlocal=true&amp;searchnat=true"
                                                 style="color: #fff;background-color: #d9534f;border-color: #d43f3a;">Title</a>
                                             <a class="badge  "
-                                                href="/IndEX/?sortOrder=org_asc&amp;searchlocal=true&amp;searchnat=true&amp;searchinter=true"
+                                                href="/IndEX/?sortOrder=org_asc&amp;searchlocal=true&amp;searchnat=true"
                                                 style="color: #fff;background-color: #d9534f;border-color: #d43f3a;">Organization</a>
 
                                             <a class="badge  "
-                                                href="/IndEX/?sortOrder=mob_asc&amp;searchlocal=true&amp;searchnat=true&amp;searchinter=true"
+                                                href="/IndEX/?sortOrder=mob_asc&amp;searchlocal=true&amp;searchnat=true"
                                                 style="color: #fff;background-color: #d9534f;border-color: #d43f3a;">Mobility</a>
                                             <a class="badge "
-                                                href="/IndEX/?sortOrder=loc_asc&amp;searchlocal=true&amp;searchnat=true&amp;searchinter=true"
+                                                href="/IndEX/?sortOrder=loc_asc&amp;searchlocal=true&amp;searchnat=true"
                                                 style="color: #fff;background-color: #d9534f;border-color: #d43f3a;">Location</a>
                                             <a class="badge    "
-                                                href="/IndEX/?sortOrder=term_asc&amp;searchlocal=true&amp;searchnat=true&amp;searchinter=true"
+                                                href="/IndEX/?sortOrder=term_asc&amp;searchlocal=true&amp;searchnat=true"
                                                 style="color: #fff;background-color: #d9534f;border-color: #d43f3a;">Term</a>
                                             <a class="badge  "
-                                                href="/IndEX/?sortOrder=dur_asc&amp;searchlocal=true&amp;searchnat=true&amp;searchinter=true"
+                                                href="/IndEX/?sortOrder=dur_asc&amp;searchlocal=true&amp;searchnat=true"
                                                 style="color: #fff;background-color: #d9534f;border-color: #d43f3a;">Duration</a>
                                             <a class="badge  "
-                                                href="/IndEX/?sortOrder=expdate_desc&amp;searchlocal=true&amp;searchnat=true&amp;searchinter=true"
+                                                href="/IndEX/?sortOrder=expdate_desc&amp;searchlocal=true&amp;searchnat=true"
                                                 style="color: #fff;background-color: #d9534f;border-color: #d43f3a;">Expires</a>
 
                                         </div>
@@ -559,10 +559,13 @@
 
                                                     <div class="panel-heading">
                                                         <h4>
-                                                            <a href="https://jobs.nutrien.com/North-America/job/Saskatoon-Co-op-Student%2C-Computer-Science-%28Saskatchewan%29-SK-S7K-5Z6/563339617/"
+                                                            <a href="https://career17.sapsf.com/sfcareer/jobreqcareerpvt?jobId=10453&amp;company=C0009109522P&amp;st=C0F7EE30A3359F0496C087D1E2B0574530F0D9DD"
                                                                 target="_blank"
-                                                                onclick="trackOutboundLink('https://jobs.nutrien.com/North-America/job/Saskatoon-Co-op-Student%2C-Computer-Science-%28Saskatchewan%29-SK-S7K-5Z6/563339617/','37114', 26); return false;">Co-op
-                                                                Student, Computer Science (Saskatchewan)</a>
+                                                                onclick="trackOutboundLink('https://career17.sapsf.com/sfcareer/jobreqcareerpvt?jobId=10453&amp;company=C0009109522P&amp;st=C0F7EE30A3359F0496C087D1E2B0574530F0D9DD','38265', 26); return false;">Senior
+                                                                Technical Student</a>
+                                                            <span class="glyphicon glyphicon-asterisk tag-new"
+                                                                aria-hidden="true" title="Recently added"></span>
+                                                            <span class="sr-only">New</span>
 
                                                         </h4>
                                                     </div>
@@ -573,7 +576,7 @@
                                                         <label class="control-label  col-md-6"
                                                             for="Organization">Organization</label>
                                                         <div class="col-md-6">
-                                                            Nutrien
+                                                            Toronto Hydro
                                                         </div>
                                                     </div>
 
@@ -591,7 +594,7 @@
                                                             for="Location">Location</label>
 
                                                         <div class="col-md-6">
-                                                            Multiple Locations, Canada
+                                                            Toronto, ON
                                                         </div>
                                                     </div>
 
@@ -617,177 +620,7 @@
                                                             for="Expires">Expires</label>
 
                                                         <div class="col-md-6">
-                                                            2023-02-16
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span title="CSI, CEG, SEG, GTA">CSI, CEG, SEG,…</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://jobs.nutrien.com/North-America/job/Calgary-Co-op-Student%2C-Computer-Science-%28Alberta%29-AB-T2P-2N1/563340217/"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://jobs.nutrien.com/North-America/job/Calgary-Co-op-Student%2C-Computer-Science-%28Alberta%29-AB-T2P-2N1/563340217/','37117', 26); return false;">Co-op
-                                                                Student, Computer Science (Alberta)</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Nutrien
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            National
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Calgary, AB, CA
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-02-16
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span title="CSI, CEG, SEG, GTA">CSI, CEG, SEG,…</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://jobs.nutrien.com/North-America/job/Calgary-Co-op-Student%2C-Engineering-%28Canada%29-AB-T2P-2N1/563324717/"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://jobs.nutrien.com/North-America/job/Calgary-Co-op-Student%2C-Engineering-%28Canada%29-AB-T2P-2N1/563324717/','37118', 26); return false;">Co-op
-                                                                Student, Engineering (Alberta)</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Nutrien
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            National
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Multiple Locations, Canada
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-02-16
+                                                            2023-02-23
                                                         </div>
                                                     </div>
 
@@ -799,7 +632,7 @@
                                                         <div class="col-md-6">
 
                                                             <span
-                                                                title="CHG, CVG, ELG, MCG, CEG, SEG, MGB, BCG, PHY/ELG">CHG,
+                                                                title="CHG, CVG, ELG, MCG, CSI, CEG, SEG, MGB, CSM, BCG, MFE, GEI, MCG, PHY/ELG">CHG,
                                                                 CVG, ELG,…</span>
                                                         </div>
                                                     </div>
@@ -816,10 +649,14 @@
 
                                                     <div class="panel-heading">
                                                         <h4>
-                                                            <a href="https://jobs.nutrien.com/North-America/job/Saskatoon-Co-op-Student%2C-Chemical-Engineering-%28Alberta%29-SK-S7K-5Z6/563463817/"
+                                                            <a href="https://triumf.wd10.myworkdayjobs.com/en-US/student-jobs/job/Firmware-Engineering-Co-Op-for-Physics-Detector-Development--Fully-On-site-_JR100666"
                                                                 target="_blank"
-                                                                onclick="trackOutboundLink('https://jobs.nutrien.com/North-America/job/Saskatoon-Co-op-Student%2C-Chemical-Engineering-%28Alberta%29-SK-S7K-5Z6/563463817/','37122', 26); return false;">Co-op
-                                                                Student, Chemical Engineering (Alberta)</a>
+                                                                onclick="trackOutboundLink('https://triumf.wd10.myworkdayjobs.com/en-US/student-jobs/job/Firmware-Engineering-Co-Op-for-Physics-Detector-Development--Fully-On-site-_JR100666','38269', 26); return false;">Firmware
+                                                                Engineering Co-Op for Physics Detector Development
+                                                                (Fully On-site)</a>
+                                                            <span class="glyphicon glyphicon-asterisk tag-new"
+                                                                aria-hidden="true" title="Recently added"></span>
+                                                            <span class="sr-only">New</span>
 
                                                         </h4>
                                                     </div>
@@ -830,7 +667,7 @@
                                                         <label class="control-label  col-md-6"
                                                             for="Organization">Organization</label>
                                                         <div class="col-md-6">
-                                                            Nutrien
+                                                            TRIUMF
                                                         </div>
                                                     </div>
 
@@ -848,7 +685,7 @@
                                                             for="Location">Location</label>
 
                                                         <div class="col-md-6">
-                                                            Calgary, AB
+                                                            Vancouver, BC
                                                         </div>
                                                     </div>
 
@@ -874,7 +711,7 @@
                                                             for="Expires">Expires</label>
 
                                                         <div class="col-md-6">
-                                                            2023-02-16
+                                                            2023-02-27
                                                         </div>
                                                     </div>
 
@@ -885,108 +722,13 @@
                                                             for="ProgramTitle">Programs</label>
                                                         <div class="col-md-6">
 
-                                                            <span
-                                                                title="CHG, CVG, ELG, MCG, CEG, SEG, MGB, BCG, PHY/ELG">CHG,
-                                                                CVG, ELG,…</span>
+                                                            <span title="ELG, CSI, CEG, SEG, CSM, MFE, GEI">ELG, CSI,
+                                                                CEG,…</span>
                                                         </div>
                                                     </div>
 
                                                     <div class="col-md-12" style="">
 
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://clients.njoyn.com/cl3/xweb/xweb.asp?page=JobDetails&amp;jobid=j0123-1120&amp;clid=53103&amp;lang=1&amp;bpac=78mw65i34982iqxz345862"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://clients.njoyn.com/cl3/xweb/xweb.asp?page=JobDetails&amp;jobid=j0123-1120&amp;clid=53103&amp;lang=1&amp;bpac=78mw65i34982iqxz345862','38222', 26); return false;">Co-op
-                                                                Student, Financial Standards and Information</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Canadian Institute for Health Information
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            National
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Location preference – Ottawa or Toronto CIHI office (hybrid
-                                                            work mode – 1 day in office per week)
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-02-18
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span
-                                                                title="CPT, CSI, CEG, SEG, BPS, BIO, BCH, FIN, ECO, SIG, EBC, BIM, CSM, BCG, MFE, GTA, AST">CPT,
-                                                                CSI, CEG,…</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                        <label class="control-label  col-md-6 "
-                                                            for="Job_Info">Additional Info</label>
-                                                        <div class="col-md-6">
-                                                            Location preference – Ottawa or Toronto CIHI office (hybrid
-                                                            work mode – 1 day in office per week)
-                                                        </div>
                                                     </div>
                                                 </div>
 
@@ -1001,9 +743,6 @@
                                                                 target="_blank"
                                                                 onclick="trackOutboundLink('https://aluperf.referrals.selectminds.com/jobs/network-mgmt-solutions-dev-co-op-intern-95448','38242', 26); return false;">Network
                                                                 Mgmt Solutions Dev Co-op/ Intern</a>
-                                                            <span class="glyphicon glyphicon-asterisk tag-new"
-                                                                aria-hidden="true" title="Recently added"></span>
-                                                            <span class="sr-only">New</span>
 
                                                         </h4>
                                                     </div>
@@ -1091,9 +830,6 @@
                                                                 target="_blank"
                                                                 onclick="trackOutboundLink('https://careers.nokia.com/jobs/business-intelligence-co-op-intern-91288','38244', 26); return false;">Business
                                                                 Intelligence Co-op/Intern</a>
-                                                            <span class="glyphicon glyphicon-asterisk tag-new"
-                                                                aria-hidden="true" title="Recently added"></span>
-                                                            <span class="sr-only">New</span>
 
                                                         </h4>
                                                     </div>
@@ -1181,9 +917,6 @@
                                                                 target="_blank"
                                                                 onclick="trackOutboundLink('https://aluperf.referrals.selectminds.com/jobs/data-and-reporting-analyst-co-op-intern-95731','38248', 26); return false;">Data
                                                                 and Reporting Analyst Co-op/Intern</a>
-                                                            <span class="glyphicon glyphicon-asterisk tag-new"
-                                                                aria-hidden="true" title="Recently added"></span>
-                                                            <span class="sr-only">New</span>
 
                                                         </h4>
                                                     </div>
@@ -1271,9 +1004,6 @@
                                                                 target="_blank"
                                                                 onclick="trackOutboundLink('https://aluperf.referrals.selectminds.com/jobs/project-mgmt-scrum-master-co-op-intern-95736','38249', 26); return false;">Project
                                                                 Mgmt/Scrum Master Co-op/Intern</a>
-                                                            <span class="glyphicon glyphicon-asterisk tag-new"
-                                                                aria-hidden="true" title="Recently added"></span>
-                                                            <span class="sr-only">New</span>
 
                                                         </h4>
                                                     </div>
@@ -1361,9 +1091,6 @@
                                                                 target="_blank"
                                                                 onclick="trackOutboundLink('https://aluperf.referrals.selectminds.com/jobs/data-analyst-ms-purview-coop-intern-95839','38250', 26); return false;">Data
                                                                 Analyst (MS Purview) Coop/Intern</a>
-                                                            <span class="glyphicon glyphicon-asterisk tag-new"
-                                                                aria-hidden="true" title="Recently added"></span>
-                                                            <span class="sr-only">New</span>
 
                                                         </h4>
                                                     </div>
@@ -1451,9 +1178,6 @@
                                                                 target="_blank"
                                                                 onclick="trackOutboundLink('https://aluperf.referrals.selectminds.com/jobs/robotic-process-automation-co-op-intern-95733','38251', 26); return false;">Robotic
                                                                 Process Automation Co-op/Intern</a>
-                                                            <span class="glyphicon glyphicon-asterisk tag-new"
-                                                                aria-hidden="true" title="Recently added"></span>
-                                                            <span class="sr-only">New</span>
 
                                                         </h4>
                                                     </div>
@@ -1542,9 +1266,6 @@
                                                                 onclick="trackOutboundLink('https://jobs.lever.co/geotab/8ae6f2f2-f883-4104-8a11-70d96cb40729','38245', 26); return false;">Embedded
                                                                 Systems Developer - Rust Intern (Summer/May 2023, 4-8
                                                                 Months)</a>
-                                                            <span class="glyphicon glyphicon-asterisk tag-new"
-                                                                aria-hidden="true" title="Recently added"></span>
-                                                            <span class="sr-only">New</span>
 
                                                         </h4>
                                                     </div>
@@ -1633,9 +1354,6 @@
                                                                 onclick="trackOutboundLink('https://jobs.lever.co/geotab/743196ab-4d4d-4a30-bfea-90dbd7607892','38246', 26); return false;">Product
                                                                 Coordinator Intern, MyAdmin (Summer/May 2023, 8
                                                                 Months)</a>
-                                                            <span class="glyphicon glyphicon-asterisk tag-new"
-                                                                aria-hidden="true" title="Recently added"></span>
-                                                            <span class="sr-only">New</span>
 
                                                         </h4>
                                                     </div>
@@ -1724,9 +1442,6 @@
                                                                 onclick="trackOutboundLink('https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student--Internal-Audit---Data-Science---Coop-Internal-Audit_R-0000048363','38247', 26); return false;">2023
                                                                 Summer Student, Internal Audit - Data Science - Coop
                                                                 Internal Audit</a>
-                                                            <span class="glyphicon glyphicon-asterisk tag-new"
-                                                                aria-hidden="true" title="Recently added"></span>
-                                                            <span class="sr-only">New</span>
 
                                                         </h4>
                                                     </div>
@@ -1813,10 +1528,6 @@
                                                             <a href="/IndEX/Home/DisplayPDF/38252"
                                                                 onclick="onclickfct(38252)" target="_blank">System
                                                                 Development Engineer - Co-op (Multiple Streams)</a>
-                                                            <span class="glyphicon glyphicon-asterisk tag-new"
-                                                                aria-hidden="true" title="Recently added"></span>
-                                                            <span class="sr-only">New</span>
-
                                                         </h4>
                                                     </div>
 
@@ -2057,6 +1768,96 @@
                                                             <span
                                                                 title="CHG, CVG, ELG, MCG, CEG, MGB, BCG, GEI, MCG">CHG,
                                                                 CVG, ELG,…</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="card col-md-5">
+
+                                                <div class="panel panel-default" style="margin-bottom:0px">
+
+                                                    <div class="panel-heading">
+                                                        <h4>
+                                                            <a href="https://cogeco.wd3.myworkdayjobs.com/en-US/Cogeco_Careers/details/Bilingual-Technical-Support-Specialist_JR5576?q=jr5576"
+                                                                target="_blank"
+                                                                onclick="trackOutboundLink('https://cogeco.wd3.myworkdayjobs.com/en-US/Cogeco_Careers/details/Bilingual-Technical-Support-Specialist_JR5576?q=jr5576','38258', 26); return false;">Bilingual
+                                                                Technical Support Specialist</a>
+                                                            <span class="glyphicon glyphicon-asterisk tag-new"
+                                                                aria-hidden="true" title="Recently added"></span>
+                                                            <span class="sr-only">New</span>
+
+                                                        </h4>
+                                                    </div>
+
+                                                </div>
+                                                <div class="cardContent ">
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Organization">Organization</label>
+                                                        <div class="col-md-6">
+                                                            Cogeco
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Mobility">Mobility</label>
+
+                                                        <div class="col-md-6">
+                                                            National
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Location">Location</label>
+
+                                                        <div class="col-md-6">
+                                                            Various cities in Ontario (not Ottawa)
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6" for="Term">Term</label>
+
+                                                        <div class="col-md-6">
+                                                            2023, Summer
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Duration">Duration</label>
+
+                                                        <div class="col-md-6">
+                                                            4 months
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Expires">Expires</label>
+
+                                                        <div class="col-md-6">
+                                                            2023-03-16
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6 "
+                                                            for="ProgramTitle">Programs</label>
+                                                        <div class="col-md-6">
+
+                                                            <span
+                                                                title="CPT, CHG, CVG, ELG, MCG, CSI, TRA, HIS, GEG, CEG, CHM, MAT, ADM, ENV, POL, ENG, CMN, SOC, PHY, GEO, EVS, SEG, BPS, BIO, BCH, FIN, GRH, MKT, ENT, GIN, ECO, SIG, MAS, LTF, DRC, PAP, EBC, DVM, MAN, FEM, GAS, BIM, EBT, STA, PMA, ANT, MGB, GPY, EPP, ECI, MDG, API, ECH, MGT, CSM, DRM, ISI, MEC, HIM, BCG, FRS, MFE, MAP, EVD, MCM, EPV, SIA, GEI, MCG, AMM, MSO, MSC, MAN, PHY/ELG, GTA, AST">CPT,
+                                                                CHG, CVG,…</span>
                                                         </div>
                                                     </div>
 
@@ -2754,602 +2555,6 @@
 
                                                     <div class="panel-heading">
                                                         <h4>
-                                                            <a href="https://ea.gr8people.com/jobs/176138/mtx-software-engineer-intern-apex-legends"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://ea.gr8people.com/jobs/176138/mtx-software-engineer-intern-apex-legends','38036', 26); return false;">MTX
-                                                                Software Engineer Intern (Apex Legends)</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Electronic Arts
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            International
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Los Angeles, CA, USA - Remote
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-03-31
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span title="">CSI, CEG, SEG</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://ea.gr8people.com/jobs/176033/software-engineer-intern-new-game-incubation-team"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://ea.gr8people.com/jobs/176033/software-engineer-intern-new-game-incubation-team','38037', 26); return false;">Software
-                                                                Engineer Intern (New Game Incubation Team)</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Electronic Arts
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            International
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Los Angeles, CA, USA - Remote
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-03-31
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span title="">CSI, SEG</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://ea.gr8people.com/jobs/175734/insights-analyst-intern"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://ea.gr8people.com/jobs/175734/insights-analyst-intern','38038', 26); return false;">Insights
-                                                                Analyst Intern</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Electronic Arts
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            International
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Austin, TX, USA - Remote
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-03-31
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span title="">CSI, SEG</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://ea.gr8people.com/jobs/176135/software-engineer-intern-star-wars-fps"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://ea.gr8people.com/jobs/176135/software-engineer-intern-star-wars-fps','38039', 26); return false;">Software
-                                                                Engineer Intern (Star Wars FPS)</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Electronic Arts
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            International
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Los Angeles, CA, USA - Remote
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-03-31
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span title="">CSI, CEG, SEG</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://ea.gr8people.com/jobs/175954/software-engineer-intern"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://ea.gr8people.com/jobs/175954/software-engineer-intern','38040', 26); return false;">Software
-                                                                Engineer Intern</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Electronic Arts
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            International
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Redwood City, CA, USA - Remote
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-03-31
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span title="">CSI, CEG, SEG</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://ea.gr8people.com/jobs/175944/software-engineer-intern"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://ea.gr8people.com/jobs/175944/software-engineer-intern','38042', 26); return false;">Software
-                                                                Engineer Intern</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Electronic Arts
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            International
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Redwood City, CA, USA - Remote
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-03-31
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span title="">CSI, CEG, SEG</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://ea.gr8people.com/jobs/177146/product-management-pathfinder-intern"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://ea.gr8people.com/jobs/177146/product-management-pathfinder-intern','38043', 26); return false;">Product
-                                                                Management Pathfinder Intern</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Electronic Arts
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            International
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Redwood City, CA, USA - Remote
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-03-31
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span title="CSI, CEG, ADM, SEG, ECO, EBC, MGT, GTA">CSI,
-                                                                CEG, ADM,…</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
                                                             <a href="https://ea.gr8people.com/jobs/175867/software-engineer-intern-summer-2023"
                                                                 target="_blank"
                                                                 onclick="trackOutboundLink('https://ea.gr8people.com/jobs/175867/software-engineer-intern-summer-2023','38032', 26); return false;">Software
@@ -3679,6 +2884,265 @@
                                                             <span
                                                                 title="CHG, CSI, CEG, MAT, ADM, ENT, ECO, MAS, EBC, STA, MGB, EPP, MGT, BCG">CHG,
                                                                 CSI, CEG,…</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="card col-md-5">
+
+                                                <div class="panel panel-default" style="margin-bottom:0px">
+
+                                                    <div class="panel-heading">
+                                                        <h4>
+                                                            <a href="https://jobs.jnj.com/en/jobs/00001iqz/international-recruitment-development-program-2023-internship-opportunity-canada-medical-devices/"
+                                                                target="_blank"
+                                                                onclick="trackOutboundLink('https://jobs.jnj.com/en/jobs/00001iqz/international-recruitment-development-program-2023-internship-opportunity-canada-medical-devices/','37577', 26); return false;">International
+                                                                Recruitment Development Program 2023- Internship
+                                                                Opportunity- Canada (Medical Devices)</a>
+
+                                                        </h4>
+                                                    </div>
+
+                                                </div>
+                                                <div class="cardContent ">
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Organization">Organization</label>
+                                                        <div class="col-md-6">
+                                                            Johnson &amp; Johnson Inc.
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Mobility">Mobility</label>
+
+                                                        <div class="col-md-6">
+                                                            National
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Location">Location</label>
+
+                                                        <div class="col-md-6">
+                                                            Toronto, ON
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6" for="Term">Term</label>
+
+                                                        <div class="col-md-6">
+                                                            2023, Summer
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Duration">Duration</label>
+
+                                                        <div class="col-md-6">
+                                                            4 months
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Expires">Expires</label>
+
+                                                        <div class="col-md-6">
+                                                            2023-04-01
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6 "
+                                                            for="ProgramTitle">Programs</label>
+                                                        <div class="col-md-6">
+
+                                                            <span
+                                                                title="CPT, MAT, ADM, FIN, GRH, MKT, ENT, GIN, ECO, SIG, MAS, EBC, MAN, STA, EPP, MGT, MFE, SIA, GTA">CPT,
+                                                                MAT, ADM,…</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="card col-md-5">
+
+                                                <div class="panel panel-default" style="margin-bottom:0px">
+
+                                                    <div class="panel-heading">
+                                                        <h4>
+                                                            <a href="https://ca.indeed.com/jobs?q=Statistic+Internship&amp;start=10&amp;pp=gQAPAAAAAAAAAAAAAAAB7-9txwAVAQAF7NUc79R_fQERfg3YAgwn-BoSAAA&amp;vjk=20ef24cd917cdce4"
+                                                                target="_blank"
+                                                                onclick="trackOutboundLink('https://ca.indeed.com/jobs?q=Statistic+Internship&amp;start=10&amp;pp=gQAPAAAAAAAAAAAAAAAB7-9txwAVAQAF7NUc79R_fQERfg3YAgwn-BoSAAA&amp;vjk=20ef24cd917cdce4','37596', 26); return false;">Gold
+                                                                Rush Summer Intern - Maintenance</a>
+
+                                                        </h4>
+                                                    </div>
+
+                                                </div>
+                                                <div class="cardContent ">
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Organization">Organization</label>
+                                                        <div class="col-md-6">
+                                                            Kinross Gold Corporation
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Mobility">Mobility</label>
+
+                                                        <div class="col-md-6">
+                                                            National
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Location">Location</label>
+
+                                                        <div class="col-md-6">
+                                                            Toronto, ON
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6" for="Term">Term</label>
+
+                                                        <div class="col-md-6">
+                                                            2023, Summer
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Duration">Duration</label>
+
+                                                        <div class="col-md-6">
+                                                            4 months
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Expires">Expires</label>
+
+                                                        <div class="col-md-6">
+                                                            2023-04-01
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6 "
+                                                            for="ProgramTitle">Programs</label>
+                                                        <div class="col-md-6">
+
+                                                            <span title="MCG, MAT, MAS, STA, MGB">MCG, MAT, MAS,…</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="card col-md-5">
+
+                                                <div class="panel panel-default" style="margin-bottom:0px">
+
+                                                    <div class="panel-heading">
+                                                        <h4>
+                                                            <a href="https://ca.indeed.com/jobs?q=Statistic+Internship&amp;start=30&amp;pp=gQAtAAAAAAAAAAAAAAAB7-9txwAhAQEBBwJdbTSKW5MdMuZKzS_iYzilC2I-xMc2sYCnRGfHAAA&amp;vjk=b268b4229f57a70d"
+                                                                target="_blank"
+                                                                onclick="trackOutboundLink('https://ca.indeed.com/jobs?q=Statistic+Internship&amp;start=30&amp;pp=gQAtAAAAAAAAAAAAAAAB7-9txwAhAQEBBwJdbTSKW5MdMuZKzS_iYzilC2I-xMc2sYCnRGfHAAA&amp;vjk=b268b4229f57a70d','37597', 26); return false;">Health
+                                                                Actuary - Analyst II</a>
+
+                                                        </h4>
+                                                    </div>
+
+                                                </div>
+                                                <div class="cardContent ">
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Organization">Organization</label>
+                                                        <div class="col-md-6">
+                                                            Mercer
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Mobility">Mobility</label>
+
+                                                        <div class="col-md-6">
+                                                            National
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Location">Location</label>
+
+                                                        <div class="col-md-6">
+                                                            Toronto, ON
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6" for="Term">Term</label>
+
+                                                        <div class="col-md-6">
+                                                            2023, Summer
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Duration">Duration</label>
+
+                                                        <div class="col-md-6">
+                                                            4 months
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Expires">Expires</label>
+
+                                                        <div class="col-md-6">
+                                                            2023-04-01
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6 "
+                                                            for="ProgramTitle">Programs</label>
+                                                        <div class="col-md-6">
+
+                                                            <span title="CPT, MAT, FIN, MAS, STA, MFE">CPT, MAT,
+                                                                FIN,…</span>
                                                         </div>
                                                     </div>
 
@@ -10428,9 +9892,6 @@
                                                                 target="_blank"
                                                                 onclick="trackOutboundLink('https://boards.greenhouse.io/kinaxis/jobs/6611319002?gh_jid=6611319002','38237', 26); return false;">Technical
                                                                 Support Analyst Co-Op/Intern</a>
-                                                            <span class="glyphicon glyphicon-asterisk tag-new"
-                                                                aria-hidden="true" title="Recently added"></span>
-                                                            <span class="sr-only">New</span>
 
                                                         </h4>
                                                     </div>
@@ -10499,521 +9960,6 @@
                                                             <span
                                                                 title="CSI, CEG, SEG, SIG, EBT, CSM, SIA, GEI, GTA">CSI,
                                                                 CEG, SEG,…</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://ea.gr8people.com/jobs/175734/insights-analyst-intern-summer-2023"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://ea.gr8people.com/jobs/175734/insights-analyst-intern-summer-2023','37282', 26); return false;">Insights
-                                                                Analyst Intern (Summer 2023)</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Electronic arts
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            International
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Austin, TX, USA- Remote
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-04-30
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span title="CSI, CEG, SEG, SIG, SIA, GTA">CSI, CEG,
-                                                                SEG,…</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://ea.gr8people.com/jobs/175923/software-engineer-summer-intern-ts4-client"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://ea.gr8people.com/jobs/175923/software-engineer-summer-intern-ts4-client','37284', 26); return false;">Software
-                                                                Engineer Summer Intern - TS4 Client</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Electronic arts
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            International
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Redwood City, CA, USA-Remote
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-04-30
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span title="">CSI, CEG, SEG</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://ea.gr8people.com/jobs/175924/ts4-experience-design-summer-intern"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://ea.gr8people.com/jobs/175924/ts4-experience-design-summer-intern','37285', 26); return false;">TS4
-                                                                Experience Design Summer Intern</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Electronic arts
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            International
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Redwood City, CA, USA-Remote
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-04-30
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span title="">CSI, CEG, SEG</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://ea.gr8people.com/jobs/175943/product-manager-intern-summer-2023"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://ea.gr8people.com/jobs/175943/product-manager-intern-summer-2023','37286', 26); return false;">Product
-                                                                Manager Intern (Summer 2023)</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Electronic arts
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            International
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Redwood City, CA, USA-Remote
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-04-30
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span
-                                                                title="CPT, CSI, CEG, ADM, FIN, GRH, MKT, ENT, GIN, ECO, SIG, EBC, DVM, MAN, EPP, ECI, MGT, MFE, SIA">CPT,
-                                                                CSI, CEG,…</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://ea.gr8people.com/jobs/175946/product-management-pathfinder-positive-play-summer-2023"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://ea.gr8people.com/jobs/175946/product-management-pathfinder-positive-play-summer-2023','37287', 26); return false;">Product
-                                                                Management Pathfinder - Positive Play (Summer 2023)</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Electronic arts
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            International
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Redwood City, CA, USA-Remote
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-04-30
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span
-                                                                title="CPT, CSI, CEG, ADM, SEG, FIN, GRH, MKT, ENT, GIN, SIG, DVM, MAN, ECI, MGT, MFE, GTA">CPT,
-                                                                CSI, CEG,…</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://ea.gr8people.com/jobs/176369/game-design-intern-modes-apex-legends"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://ea.gr8people.com/jobs/176369/game-design-intern-modes-apex-legends','37292', 26); return false;">Game
-                                                                Design Intern - Modes (Apex Legends)</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Electronic arts
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            International
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Los Angeles, CA, USA-Remote
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-04-30
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span title="">CSI, CEG, SEG</span>
                                                         </div>
                                                     </div>
 
@@ -11462,11 +10408,7 @@
                                                         <h4>
                                                             <a href="/IndEX/Home/DisplayPDF/38240"
                                                                 onclick="onclickfct(38240)" target="_blank">Financial
-                                                                Markets Diversity Scholarship Program</a> <span
-                                                                class="glyphicon glyphicon-asterisk tag-new"
-                                                                aria-hidden="true" title="Recently added"></span>
-                                                            <span class="sr-only">New</span>
-
+                                                                Markets Diversity Scholarship Program</a>
                                                         </h4>
                                                     </div>
 
@@ -12231,6 +11173,92 @@
 
                                                     <div class="panel-heading">
                                                         <h4>
+                                                            <a href="https://jobs.lever.co/geocomply-2/eb5f7978-2d21-4c2d-aa11-cd51fdbcc21b"
+                                                                target="_blank"
+                                                                onclick="trackOutboundLink('https://jobs.lever.co/geocomply-2/eb5f7978-2d21-4c2d-aa11-cd51fdbcc21b','38166', 26); return false;">Fraud
+                                                                Analyst Intern</a>
+
+                                                        </h4>
+                                                    </div>
+
+                                                </div>
+                                                <div class="cardContent ">
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Organization">Organization</label>
+                                                        <div class="col-md-6">
+                                                            GeoComply
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Mobility">Mobility</label>
+
+                                                        <div class="col-md-6">
+                                                            National
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Location">Location</label>
+
+                                                        <div class="col-md-6">
+                                                            Vancouver, BC
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6" for="Term">Term</label>
+
+                                                        <div class="col-md-6">
+                                                            2023, Summer
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Duration">Duration</label>
+
+                                                        <div class="col-md-6">
+                                                            4 months
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6"
+                                                            for="Expires">Expires</label>
+
+                                                        <div class="col-md-6">
+                                                            2023-05-09
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <div class="col-md-12" style="">
+                                                        <label class="control-label  col-md-6 "
+                                                            for="ProgramTitle">Programs</label>
+                                                        <div class="col-md-6">
+
+                                                            <span title="MAT, ADM, SIG, MAS, EBC, STA, SIA, GTA">MAT,
+                                                                ADM, SIG,…</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12" style="">
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="card col-md-5">
+
+                                                <div class="panel panel-default" style="margin-bottom:0px">
+
+                                                    <div class="panel-heading">
+                                                        <h4>
                                                             <a href="https://ea.gr8people.com/jobs/173661/c-software-engineer-co-op-springsummer-2023-8-months?geo_location=ChIJs0-pQ_FzhlQRi_OBm-qWkbs"
                                                                 target="_blank"
                                                                 onclick="trackOutboundLink('https://ea.gr8people.com/jobs/173661/c-software-engineer-co-op-springsummer-2023-8-months?geo_location=ChIJs0-pQ_FzhlQRi_OBm-qWkbs','36554', 26); return false;">C++
@@ -12654,605 +11682,6 @@
                                                 </div>
 
                                             </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://ea.gr8people.com/jobs/176652/machine-learning-intern-summer-2023"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://ea.gr8people.com/jobs/176652/machine-learning-intern-summer-2023','37291', 26); return false;">Machine
-                                                                Learning Intern (Summer 2023)</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Electronic arts
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            International
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Redwood City, CA, USA-Remote
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-05-31
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span title="">CSI, CEG, SEG</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://ea.gr8people.com/jobs/176036/sound-design-intern-star-wars-fps-team"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://ea.gr8people.com/jobs/176036/sound-design-intern-star-wars-fps-team','37293', 26); return false;">Sound
-                                                                Design Intern (Star Wars FPS Team)</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Electronic arts
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            International
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Los Angeles, CA, USA-Remote
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-05-31
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span
-                                                                title="CPT, CHG, CVG, ELG, MCG, CSI, TRA, HIS, GEG, CEG, CHM, MAT, ADM, ENV, POL, ENG, CMN, SOC, PHY, GEO, EVS, SEG, BPS, BIO, BCH, FIN, GRH, MKT, ENT, GIN, ECO, SIG, MAS, LTF, DRC, PAP, EBC, DVM, MAN, FEM, GAS, BIM, EBT, STA, PMA, ANT, MGB, GPY, EPP, ECI, MDG, API, ECH, MGT, CSM, DRM, ISI, MEC, HIM, BCG, FRS, MFE, MAP, EVD, MCM, EPV, SIA, GEI, MCG, AMM, MSO, MSC, MAN, PHY/ELG, GTA, AST">CPT,
-                                                                CHG, CVG,…</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://ea.gr8people.com/jobs/176039/sfx-intern-star-wars-jedi-survivor"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://ea.gr8people.com/jobs/176039/sfx-intern-star-wars-jedi-survivor','37294', 26); return false;">SFX
-                                                                Intern (Star Wars Jedi: Survivor)</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Electronic arts
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            International
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Los Angeles, CA, USA-Remote
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-05-31
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span
-                                                                title="CPT, CHG, CVG, ELG, MCG, CSI, TRA, HIS, GEG, CEG, CHM, MAT, ADM, ENV, POL, ENG, CMN, SOC, PHY, GEO, EVS, SEG, BPS, BIO, BCH, FIN, GRH, MKT, ENT, GIN, ECO, SIG, MAS, LTF, DRC, PAP, EBC, DVM, MAN, FEM, GAS, BIM, EBT, STA, PMA, ANT, MGB, GPY, EPP, ECI, MDG, API, ECH, MGT, CSM, DRM, ISI, MEC, HIM, BCG, FRS, MFE, MAP, EVD, MCM, EPV, SIA, GEI, MCG, AMM, MSO, MSC, MAN, PHY/ELG, GTA, AST">CPT,
-                                                                CHG, CVG,…</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://ea.gr8people.com/jobs/176062/experience-design-intern-star-wars-jedi-survivor"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://ea.gr8people.com/jobs/176062/experience-design-intern-star-wars-jedi-survivor','37295', 26); return false;">Experience
-                                                                Design Intern (Star Wars Jedi: Survivor)</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Electronic arts
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            International
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Los Angeles, CA, USA-Remote
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-05-31
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span title="">CSI, CEG, SEG</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://ea.gr8people.com/jobs/176134/hard-surfacecharacter-concept-art-intern-apex-legends"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://ea.gr8people.com/jobs/176134/hard-surfacecharacter-concept-art-intern-apex-legends','37296', 26); return false;">Hard
-                                                                Surface/Character Concept Art Intern (Apex Legends)</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Electronic arts
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            International
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Los Angeles, CA, USA-Remote
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-05-31
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span title="">CSI, CEG, SEG</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://ea.gr8people.com/jobs/176138/mtx-software-engineer-intern-apex-legends"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://ea.gr8people.com/jobs/176138/mtx-software-engineer-intern-apex-legends','37297', 26); return false;">MTX
-                                                                Software Engineer Intern (Apex Legends)</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Electronic arts
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            International
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Los Angeles, CA, USA-Remote
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-05-31
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span title="">CSI, CEG, SEG</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="card col-md-5">
-
-                                                <div class="panel panel-default" style="margin-bottom:0px">
-
-                                                    <div class="panel-heading">
-                                                        <h4>
-                                                            <a href="https://ea.gr8people.com/jobs/176411/technical-art-intern-apex-universe-fps-incubation-project"
-                                                                target="_blank"
-                                                                onclick="trackOutboundLink('https://ea.gr8people.com/jobs/176411/technical-art-intern-apex-universe-fps-incubation-project','37298', 26); return false;">Technical
-                                                                Art Intern (Apex Universe FPS Incubation Project)</a>
-
-                                                        </h4>
-                                                    </div>
-
-                                                </div>
-                                                <div class="cardContent ">
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Organization">Organization</label>
-                                                        <div class="col-md-6">
-                                                            Electronic arts
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Mobility">Mobility</label>
-
-                                                        <div class="col-md-6">
-                                                            International
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Location">Location</label>
-
-                                                        <div class="col-md-6">
-                                                            Los Angeles, CA, USA-Remote
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6" for="Term">Term</label>
-
-                                                        <div class="col-md-6">
-                                                            2023, Summer
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Duration">Duration</label>
-
-                                                        <div class="col-md-6">
-                                                            4 months
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6"
-                                                            for="Expires">Expires</label>
-
-                                                        <div class="col-md-6">
-                                                            2023-05-31
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div class="col-md-12" style="">
-                                                        <label class="control-label  col-md-6 "
-                                                            for="ProgramTitle">Programs</label>
-                                                        <div class="col-md-6">
-
-                                                            <span title="">CSI, CEG, SEG</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-12" style="">
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
 
                                         </div>
                                     </div>
@@ -13290,23 +11719,23 @@
                                     <div class="form-group">
 
                                         <a class="badge  "
-                                            href="/IndEX/?portsortOrder=portorg_asc&amp;searchlocal=true&amp;searchnat=true&amp;searchinter=true"
+                                            href="/IndEX/?portsortOrder=portorg_asc&amp;searchlocal=true&amp;searchnat=true"
                                             style="color: #fff;background-color: #d9534f;border-color: #d43f3a;">Organization</a>
 
                                         <a class="badge  "
-                                            href="/IndEX/?portsortOrder=portmob_local&amp;searchlocal=true&amp;searchnat=true&amp;searchinter=true"
+                                            href="/IndEX/?portsortOrder=portmob_local&amp;searchlocal=true&amp;searchnat=true"
                                             style="color: #fff;background-color: #d9534f;border-color: #d43f3a;">Mobility</a>
 
                                         <a class="badge  "
-                                            href="/IndEX/?portsortOrder=portloc_asc&amp;searchlocal=true&amp;searchnat=true&amp;searchinter=true"
+                                            href="/IndEX/?portsortOrder=portloc_asc&amp;searchlocal=true&amp;searchnat=true"
                                             style="color: #fff;background-color: #d9534f;border-color: #d43f3a;">Location</a>
 
                                         <a class="badge  "
-                                            href="/IndEX/?portsortOrder=portterm_asc&amp;searchlocal=true&amp;searchnat=true&amp;searchinter=true"
+                                            href="/IndEX/?portsortOrder=portterm_asc&amp;searchlocal=true&amp;searchnat=true"
                                             style="color: #fff;background-color: #d9534f;border-color: #d43f3a;">Term</a>
 
                                         <a class="badge  "
-                                            href="/IndEX/?portsortOrder=portexpdate_desc&amp;searchlocal=true&amp;searchnat=true&amp;searchinter=true"
+                                            href="/IndEX/?portsortOrder=portexpdate_desc&amp;searchlocal=true&amp;searchnat=true"
                                             style="color: #fff;background-color: #d9534f;border-color: #d43f3a;">Expires</a>
 
 
@@ -13464,9 +11893,6 @@
                                                         <a href="https://jobs.dayforcehcm.com/mydayforce/ETJB"
                                                             target="_blank"
                                                             onclick="trackOutboundLinkEmp('https://jobs.dayforcehcm.com/mydayforce/ETJB','13812', 26); return false;">Ceridian</a>
-                                                        <span class="glyphicon glyphicon-asterisk tag-new"
-                                                            aria-hidden="true" title="Recently added"></span>
-                                                        <span class="sr-only">New</span>
 
                                                     </h4>
 
@@ -13590,6 +12016,219 @@
                                                         <span
                                                             title="CPT, CHG, CVG, ELG, MCG, CSI, CEG, MAT, ADM, SEG, BCH, FIN, GRH, MKT, ENT, GIN, ECO, SIG, MAS, PAP, DVM, MAN, STA, MGB, EPP, ECI, MGT, MFE, SIA, PHY/ELG, GTA">CPT,
                                                             CHG, CVG,…</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12" style="">
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="card col-md-5">
+
+                                            <div class="panel panel-default">
+
+                                                <div class="panel-heading">
+                                                    <h4>
+                                                        <a href="https://www.canada.ca/en/public-service-commission/jobs/services/recruitment/students/federal-student-work-program.html"
+                                                            target="_blank"
+                                                            onclick="trackOutboundLinkEmp('https://www.canada.ca/en/public-service-commission/jobs/services/recruitment/students/federal-student-work-program.html','13755', 26); return false;">
+                                                            FSWEP - Federal Student Work Experience Program</a>
+
+                                                    </h4>
+
+                                                </div>
+                                            </div>
+                                            <div class="cardContent ">
+                                                <div class="col-md-12" style="">
+                                                    <label class="control-label  col-md-6"
+                                                        for="Mobility">Mobility</label>
+
+                                                    <div class="col-md-6">
+
+                                                        Local
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12" style="">
+                                                    <label class="control-label  col-md-6"
+                                                        for="Location">Location</label>
+
+                                                    <div class="col-md-6">
+                                                        Ottawa, ON
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12" style="">
+                                                    <label class="control-label  col-md-6" for="Term">Term</label>
+
+                                                    <div class="col-md-6">
+                                                        2023, Summer
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12" style="">
+                                                    <label class="control-label  col-md-6" for="Expire_Date">Expire
+                                                        Date</label>
+
+                                                    <div class="col-md-6">
+                                                        2023-04-29
+                                                    </div>
+                                                </div>
+
+
+
+                                                <div class="col-md-12" style="">
+                                                    <label class="control-label  col-md-6 "
+                                                        for="ProgramTitle">Programs</label>
+                                                    <div class="col-md-6">
+
+                                                        <span
+                                                            title="CPT, MAT, ADM, FIN, GRH, MKT, ENT, GIN, ECO, MAS, PAP, EBC, DVM, MAN, STA, PMA, EPP, ECI, MGT, MFE, GTA">CPT,
+                                                            MAT, ADM,…</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12" style="">
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="card col-md-5">
+
+                                            <div class="panel panel-default">
+
+                                                <div class="panel-heading">
+                                                    <h4>
+                                                        <a href="https://www.cbsa-asfc.gc.ca/job-emploi/student-etudiant-eng.html"
+                                                            target="_blank"
+                                                            onclick="trackOutboundLinkEmp('https://www.cbsa-asfc.gc.ca/job-emploi/student-etudiant-eng.html','13756', 26); return false;">Canada
+                                                            Border Services Agency</a>
+
+                                                    </h4>
+
+                                                </div>
+                                            </div>
+                                            <div class="cardContent ">
+                                                <div class="col-md-12" style="">
+                                                    <label class="control-label  col-md-6"
+                                                        for="Mobility">Mobility</label>
+
+                                                    <div class="col-md-6">
+
+                                                        Local
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12" style="">
+                                                    <label class="control-label  col-md-6"
+                                                        for="Location">Location</label>
+
+                                                    <div class="col-md-6">
+                                                        Ottawa, ON
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12" style="">
+                                                    <label class="control-label  col-md-6" for="Term">Term</label>
+
+                                                    <div class="col-md-6">
+                                                        2023, Summer
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12" style="">
+                                                    <label class="control-label  col-md-6" for="Expire_Date">Expire
+                                                        Date</label>
+
+                                                    <div class="col-md-6">
+                                                        2023-04-29
+                                                    </div>
+                                                </div>
+
+
+
+                                                <div class="col-md-12" style="">
+                                                    <label class="control-label  col-md-6 "
+                                                        for="ProgramTitle">Programs</label>
+                                                    <div class="col-md-6">
+
+                                                        <span
+                                                            title="MAT, FIN, GRH, MKT, ENT, GIN, ECO, MAS, EBC, DVM, MAN, STA, EPP, ECI, MFE">MAT,
+                                                            FIN, GRH,…</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12" style="">
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="card col-md-5">
+
+                                            <div class="panel panel-default">
+
+                                                <div class="panel-heading">
+                                                    <h4>
+                                                        <a href="https://www.canada.ca/en/public-service-commission/jobs/services/recruitment/students/coop-internship.html"
+                                                            target="_blank"
+                                                            onclick="trackOutboundLinkEmp('https://www.canada.ca/en/public-service-commission/jobs/services/recruitment/students/coop-internship.html','13757', 26); return false;">
+                                                            Public Service Commission co-op Internship program</a>
+
+                                                    </h4>
+
+                                                </div>
+                                            </div>
+                                            <div class="cardContent ">
+                                                <div class="col-md-12" style="">
+                                                    <label class="control-label  col-md-6"
+                                                        for="Mobility">Mobility</label>
+
+                                                    <div class="col-md-6">
+
+                                                        Local
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12" style="">
+                                                    <label class="control-label  col-md-6"
+                                                        for="Location">Location</label>
+
+                                                    <div class="col-md-6">
+                                                        Ottawa, ON
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12" style="">
+                                                    <label class="control-label  col-md-6" for="Term">Term</label>
+
+                                                    <div class="col-md-6">
+                                                        2023, Summer
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12" style="">
+                                                    <label class="control-label  col-md-6" for="Expire_Date">Expire
+                                                        Date</label>
+
+                                                    <div class="col-md-6">
+                                                        2023-04-29
+                                                    </div>
+                                                </div>
+
+
+
+                                                <div class="col-md-12" style="">
+                                                    <label class="control-label  col-md-6 "
+                                                        for="ProgramTitle">Programs</label>
+                                                    <div class="col-md-6">
+
+                                                        <span
+                                                            title="CPT, MAT, ADM, FIN, GRH, MKT, ENT, GIN, ECO, MAS, PAP, EBC, DVM, MAN, STA, EPP, ECI, MGT, MFE, GTA">CPT,
+                                                            MAT, ADM,…</span>
                                                     </div>
                                                 </div>
 

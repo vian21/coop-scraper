@@ -1,69 +1,57 @@
 {
   "programs": [
-    "Engineering",
     "Computer Engineering",
     "Computer Science",
-    "Software Engineering"
+    "Software Engineering",
+    "Statistics"
   ],
   "jobPostings": [
     [
-      "Co-op Student, Computer Science (Saskatchewan)",
-      "https://jobs.nutrien.com/North-America/job/Saskatoon-Co-op-Student%2C-Computer-Science-%28Saskatchewan%29-SK-S7K-5Z6/563339617/"
+      "Senior Technical Student New",
+      "https://career17.sapsf.com/sfcareer/jobreqcareerpvt?jobId=10453&company=C0009109522P&st=C0F7EE30A3359F0496C087D1E2B0574530F0D9DD"
     ],
     [
-      "Co-op Student, Computer Science (Alberta)",
-      "https://jobs.nutrien.com/North-America/job/Calgary-Co-op-Student%2C-Computer-Science-%28Alberta%29-AB-T2P-2N1/563340217/"
+      "Firmware Engineering Co-Op for Physics Detector Development (Fully On-site) New",
+      "https://triumf.wd10.myworkdayjobs.com/en-US/student-jobs/job/Firmware-Engineering-Co-Op-for-Physics-Detector-Development--Fully-On-site-_JR100666"
     ],
     [
-      "Co-op Student, Engineering (Alberta)",
-      "https://jobs.nutrien.com/North-America/job/Calgary-Co-op-Student%2C-Engineering-%28Canada%29-AB-T2P-2N1/563324717/"
-    ],
-    [
-      "Co-op Student, Chemical Engineering (Alberta)",
-      "https://jobs.nutrien.com/North-America/job/Saskatoon-Co-op-Student%2C-Chemical-Engineering-%28Alberta%29-SK-S7K-5Z6/563463817/"
-    ],
-    [
-      "Co-op Student, Financial Standards and Information",
-      "https://clients.njoyn.com/cl3/xweb/xweb.asp?page=JobDetails&jobid=j0123-1120&clid=53103&lang=1&bpac=78mw65i34982iqxz345862"
-    ],
-    [
-      "Network Mgmt Solutions Dev Co-op/ Intern New",
+      "Network Mgmt Solutions Dev Co-op/ Intern",
       "https://aluperf.referrals.selectminds.com/jobs/network-mgmt-solutions-dev-co-op-intern-95448"
     ],
     [
-      "Business Intelligence Co-op/Intern New",
+      "Business Intelligence Co-op/Intern",
       "https://careers.nokia.com/jobs/business-intelligence-co-op-intern-91288"
     ],
     [
-      "Data and Reporting Analyst Co-op/Intern New",
+      "Data and Reporting Analyst Co-op/Intern",
       "https://aluperf.referrals.selectminds.com/jobs/data-and-reporting-analyst-co-op-intern-95731"
     ],
     [
-      "Project Mgmt/Scrum Master Co-op/Intern New",
+      "Project Mgmt/Scrum Master Co-op/Intern",
       "https://aluperf.referrals.selectminds.com/jobs/project-mgmt-scrum-master-co-op-intern-95736"
     ],
     [
-      "Data Analyst (MS Purview) Coop/Intern New",
+      "Data Analyst (MS Purview) Coop/Intern",
       "https://aluperf.referrals.selectminds.com/jobs/data-analyst-ms-purview-coop-intern-95839"
     ],
     [
-      "Robotic Process Automation Co-op/Intern New",
+      "Robotic Process Automation Co-op/Intern",
       "https://aluperf.referrals.selectminds.com/jobs/robotic-process-automation-co-op-intern-95733"
     ],
     [
-      "Embedded Systems Developer - Rust Intern (Summer/May 2023, 4-8 Months) New",
+      "Embedded Systems Developer - Rust Intern (Summer/May 2023, 4-8 Months)",
       "https://jobs.lever.co/geotab/8ae6f2f2-f883-4104-8a11-70d96cb40729"
     ],
     [
-      "Product Coordinator Intern, MyAdmin (Summer/May 2023, 8 Months) New",
+      "Product Coordinator Intern, MyAdmin (Summer/May 2023, 8 Months)",
       "https://jobs.lever.co/geotab/743196ab-4d4d-4a30-bfea-90dbd7607892"
     ],
     [
-      "2023 Summer Student, Internal Audit - Data Science - Coop Internal Audit New",
+      "2023 Summer Student, Internal Audit - Data Science - Coop Internal Audit",
       "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student--Internal-Audit---Data-Science---Coop-Internal-Audit_R-0000048363"
     ],
     [
-      "System Development Engineer - Co-op (Multiple Streams) New",
+      "System Development Engineer - Co-op (Multiple Streams)",
       "/IndEX/Home/DisplayPDF/38252"
     ],
     [
@@ -73,6 +61,10 @@
     [
       "Career Opportunities: Senior Technical Student",
       "https://career17.sapsf.com/sfcareer/jobreqcareerpvt?jobId=10384&company=C0009109522P&st=E05C64A2E96BB760FFA0943A1823D9E509134A81"
+    ],
+    [
+      "Bilingual Technical Support Specialist New",
+      "https://cogeco.wd3.myworkdayjobs.com/en-US/Cogeco_Careers/details/Bilingual-Technical-Support-Specialist_JR5576?q=jr5576"
     ],
     [
       "Associate Consultant Intern, Summer 2023",
@@ -107,40 +99,8 @@
       "https://jobs.lever.co/geotab/ab578377-a61e-4887-89f6-b9cd91565de4"
     ],
     [
-      "MTX Software Engineer Intern (Apex Legends)",
-      "https://ea.gr8people.com/jobs/176138/mtx-software-engineer-intern-apex-legends"
-    ],
-    [
-      "Software Engineer Intern (New Game Incubation Team)",
-      "https://ea.gr8people.com/jobs/176033/software-engineer-intern-new-game-incubation-team"
-    ],
-    [
-      "Insights Analyst Intern",
-      "https://ea.gr8people.com/jobs/175734/insights-analyst-intern"
-    ],
-    [
-      "Software Engineer Intern (Star Wars FPS)",
-      "https://ea.gr8people.com/jobs/176135/software-engineer-intern-star-wars-fps"
-    ],
-    [
-      "Software Engineer Intern",
-      "https://ea.gr8people.com/jobs/175954/software-engineer-intern"
-    ],
-    [
-      "Software Engineer Intern",
-      "https://ea.gr8people.com/jobs/175944/software-engineer-intern"
-    ],
-    [
-      "Product Management Pathfinder Intern",
-      "https://ea.gr8people.com/jobs/177146/product-management-pathfinder-intern"
-    ],
-    [
       "Software Engineer Intern (Summer 2023)",
       "https://ea.gr8people.com/jobs/175867/software-engineer-intern-summer-2023"
-    ],
-    [
-      "Embedded Systems Developer - Rust Intern (Summer/May 2023, 4-8 Months)",
-      "https://jobs.lever.co/geotab/8ae6f2f2-f883-4104-8a11-70d96cb40729"
     ],
     [
       "Stagiaire en gestion de projet / Project Management Intern",
@@ -149,6 +109,18 @@
     [
       "Replenishment Analyst - Canadian Tire Corporation",
       "https://ca.indeed.com/jobs?q=maths+Internship&start=30&pp=gQAtAAAAAAAAAAAAAAAB77Y6WAAOAQAlfGMPR2gglr64rwIAAA&vjk=bd0b26b133c5e936"
+    ],
+    [
+      "International Recruitment Development Program 2023- Internship Opportunity- Canada (Medical Devices)",
+      "https://jobs.jnj.com/en/jobs/00001iqz/international-recruitment-development-program-2023-internship-opportunity-canada-medical-devices/"
+    ],
+    [
+      "Gold Rush Summer Intern - Maintenance",
+      "https://ca.indeed.com/jobs?q=Statistic+Internship&start=10&pp=gQAPAAAAAAAAAAAAAAAB7-9txwAVAQAF7NUc79R_fQERfg3YAgwn-BoSAAA&vjk=20ef24cd917cdce4"
+    ],
+    [
+      "Health Actuary - Analyst II",
+      "https://ca.indeed.com/jobs?q=Statistic+Internship&start=30&pp=gQAtAAAAAAAAAAAAAAAB7-9txwAhAQEBBwJdbTSKW5MdMuZKzS_iYzilC2I-xMc2sYCnRGfHAAA&vjk=b268b4229f57a70d"
     ],
     [
       "Consultant Intern - Industry Transformation (Summer - 12 months)",
@@ -463,28 +435,8 @@
       "https://careers.nokia.com/jobs/5g-cloud-engineer-co-op-intern-95209"
     ],
     [
-      "Technical Support Analyst Co-Op/Intern New",
+      "Technical Support Analyst Co-Op/Intern",
       "https://boards.greenhouse.io/kinaxis/jobs/6611319002?gh_jid=6611319002"
-    ],
-    [
-      "Insights Analyst Intern (Summer 2023)",
-      "https://ea.gr8people.com/jobs/175734/insights-analyst-intern-summer-2023"
-    ],
-    [
-      "TS4 Experience Design Summer Intern",
-      "https://ea.gr8people.com/jobs/175924/ts4-experience-design-summer-intern"
-    ],
-    [
-      "Product Manager Intern (Summer 2023)",
-      "https://ea.gr8people.com/jobs/175943/product-manager-intern-summer-2023"
-    ],
-    [
-      "Product Management Pathfinder - Positive Play (Summer 2023)",
-      "https://ea.gr8people.com/jobs/175946/product-management-pathfinder-positive-play-summer-2023"
-    ],
-    [
-      "Game Design Intern - Modes (Apex Legends)",
-      "https://ea.gr8people.com/jobs/176369/game-design-intern-modes-apex-legends"
     ],
     [
       "Project Management Assistant Student",
@@ -507,7 +459,7 @@
       "https://careers.transmountain.com/job/Calgary-Pipeline-Integrity-Co-Op-Student-%288-or-12-month-term%29-Albe/726838447/"
     ],
     [
-      "Financial Markets Diversity Scholarship Program New",
+      "Financial Markets Diversity Scholarship Program",
       "/IndEX/Home/DisplayPDF/38240"
     ],
     [
@@ -543,6 +495,10 @@
       "https://jobs.lever.co/geocomply-2/b5cae390-5cfb-44f0-9338-4269b3a56ba8"
     ],
     [
+      "Fraud Analyst Intern",
+      "https://jobs.lever.co/geocomply-2/eb5f7978-2d21-4c2d-aa11-cd51fdbcc21b"
+    ],
+    [
       "C++ Software Engineer Co-Op (Spring/Summer 2023) 8 months",
       "https://ea.gr8people.com/jobs/173661/c-software-engineer-co-op-springsummer-2023-8-months?geo_location=ChIJs0-pQ_FzhlQRi_OBm-qWkbs"
     ],
@@ -561,6 +517,160 @@
     [
       "Summer 2023 Intern - Electronics",
       "https://careers.ansys.com/job/Vancouver-Summer-2023-Intern-Electronics-Brit-V6E2M6/933034000/"
+    ],
+    [
+      "Government of Canda",
+      "https://www.canada.ca/en/services/jobs/opportunities/government.html"
+    ],
+    ["Hydro Québec", "https://emploi.hydroquebec.com"],
+    ["Ceridian", "https://jobs.dayforcehcm.com/mydayforce/ETJB"],
+    ["Tesla", "https://www.tesla.com/careers/search/?type=3&site=CA"],
+    [
+      "FSWEP - Federal Student Work Experience Program",
+      "https://www.canada.ca/en/public-service-commission/jobs/services/recruitment/students/federal-student-work-program.html"
+    ],
+    [
+      "Canada Border Services Agency",
+      "https://www.cbsa-asfc.gc.ca/job-emploi/student-etudiant-eng.html"
+    ],
+    [
+      "Public Service Commission co-op Internship program",
+      "https://www.canada.ca/en/public-service-commission/jobs/services/recruitment/students/coop-internship.html"
+    ],
+    [
+      "National Capital Commission",
+      "https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=DNQV4N&cws=37"
+    ],
+    [
+      "Government of Ontario",
+      "https://www.gojobs.gov.on.ca/Preview.aspx?Language=English&JobID=186517"
+    ],
+    ["Ontario Power Generation", "https://jobs.opg.com/"],
+    ["FDM Group", "https://www.fdmgroup.com/en-ca/ca-co-ops/"],
+    ["Merck - Career Page", "https://jobs.merck.com/us/en/jointalentcommunity"],
+    [
+      "The Walt Disney Company",
+      "https://jobs.disneycareers.com/search-jobs?glat=45.42519&glon=-75.67863"
+    ],
+    [
+      "Definity",
+      "https://careers.definityfinancial.com/search/jobs/in?location=&page=2&q=intern#"
+    ],
+    [
+      "Co-op Student, Computer Science (Saskatchewan)",
+      "https://jobs.nutrien.com/North-America/job/Saskatoon-Co-op-Student%2C-Computer-Science-%28Saskatchewan%29-SK-S7K-5Z6/563339617/"
+    ],
+    [
+      "Co-op Student, Computer Science (Alberta)",
+      "https://jobs.nutrien.com/North-America/job/Calgary-Co-op-Student%2C-Computer-Science-%28Alberta%29-AB-T2P-2N1/563340217/"
+    ],
+    [
+      "Co-op Student, Engineering (Alberta)",
+      "https://jobs.nutrien.com/North-America/job/Calgary-Co-op-Student%2C-Engineering-%28Canada%29-AB-T2P-2N1/563324717/"
+    ],
+    [
+      "Co-op Student, Chemical Engineering (Alberta)",
+      "https://jobs.nutrien.com/North-America/job/Saskatoon-Co-op-Student%2C-Chemical-Engineering-%28Alberta%29-SK-S7K-5Z6/563463817/"
+    ],
+    [
+      "Co-op Student, Financial Standards and Information",
+      "https://clients.njoyn.com/cl3/xweb/xweb.asp?page=JobDetails&jobid=j0123-1120&clid=53103&lang=1&bpac=78mw65i34982iqxz345862"
+    ],
+    [
+      "Network Mgmt Solutions Dev Co-op/ Intern New",
+      "https://aluperf.referrals.selectminds.com/jobs/network-mgmt-solutions-dev-co-op-intern-95448"
+    ],
+    [
+      "Business Intelligence Co-op/Intern New",
+      "https://careers.nokia.com/jobs/business-intelligence-co-op-intern-91288"
+    ],
+    [
+      "Data and Reporting Analyst Co-op/Intern New",
+      "https://aluperf.referrals.selectminds.com/jobs/data-and-reporting-analyst-co-op-intern-95731"
+    ],
+    [
+      "Project Mgmt/Scrum Master Co-op/Intern New",
+      "https://aluperf.referrals.selectminds.com/jobs/project-mgmt-scrum-master-co-op-intern-95736"
+    ],
+    [
+      "Data Analyst (MS Purview) Coop/Intern New",
+      "https://aluperf.referrals.selectminds.com/jobs/data-analyst-ms-purview-coop-intern-95839"
+    ],
+    [
+      "Robotic Process Automation Co-op/Intern New",
+      "https://aluperf.referrals.selectminds.com/jobs/robotic-process-automation-co-op-intern-95733"
+    ],
+    [
+      "Embedded Systems Developer - Rust Intern (Summer/May 2023, 4-8 Months) New",
+      "https://jobs.lever.co/geotab/8ae6f2f2-f883-4104-8a11-70d96cb40729"
+    ],
+    [
+      "Product Coordinator Intern, MyAdmin (Summer/May 2023, 8 Months) New",
+      "https://jobs.lever.co/geotab/743196ab-4d4d-4a30-bfea-90dbd7607892"
+    ],
+    [
+      "2023 Summer Student, Internal Audit - Data Science - Coop Internal Audit New",
+      "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2023-Summer-Student--Internal-Audit---Data-Science---Coop-Internal-Audit_R-0000048363"
+    ],
+    [
+      "System Development Engineer - Co-op (Multiple Streams) New",
+      "/IndEX/Home/DisplayPDF/38252"
+    ],
+    [
+      "MTX Software Engineer Intern (Apex Legends)",
+      "https://ea.gr8people.com/jobs/176138/mtx-software-engineer-intern-apex-legends"
+    ],
+    [
+      "Software Engineer Intern (New Game Incubation Team)",
+      "https://ea.gr8people.com/jobs/176033/software-engineer-intern-new-game-incubation-team"
+    ],
+    [
+      "Insights Analyst Intern",
+      "https://ea.gr8people.com/jobs/175734/insights-analyst-intern"
+    ],
+    [
+      "Software Engineer Intern (Star Wars FPS)",
+      "https://ea.gr8people.com/jobs/176135/software-engineer-intern-star-wars-fps"
+    ],
+    [
+      "Software Engineer Intern",
+      "https://ea.gr8people.com/jobs/175954/software-engineer-intern"
+    ],
+    [
+      "Software Engineer Intern",
+      "https://ea.gr8people.com/jobs/175944/software-engineer-intern"
+    ],
+    [
+      "Product Management Pathfinder Intern",
+      "https://ea.gr8people.com/jobs/177146/product-management-pathfinder-intern"
+    ],
+    [
+      "Technical Support Analyst Co-Op/Intern New",
+      "https://boards.greenhouse.io/kinaxis/jobs/6611319002?gh_jid=6611319002"
+    ],
+    [
+      "Insights Analyst Intern (Summer 2023)",
+      "https://ea.gr8people.com/jobs/175734/insights-analyst-intern-summer-2023"
+    ],
+    [
+      "TS4 Experience Design Summer Intern",
+      "https://ea.gr8people.com/jobs/175924/ts4-experience-design-summer-intern"
+    ],
+    [
+      "Product Manager Intern (Summer 2023)",
+      "https://ea.gr8people.com/jobs/175943/product-manager-intern-summer-2023"
+    ],
+    [
+      "Product Management Pathfinder - Positive Play (Summer 2023)",
+      "https://ea.gr8people.com/jobs/175946/product-management-pathfinder-positive-play-summer-2023"
+    ],
+    [
+      "Game Design Intern - Modes (Apex Legends)",
+      "https://ea.gr8people.com/jobs/176369/game-design-intern-modes-apex-legends"
+    ],
+    [
+      "Financial Markets Diversity Scholarship Program New",
+      "/IndEX/Home/DisplayPDF/38240"
     ],
     [
       "Machine Learning Intern (Summer 2023)",
@@ -586,31 +696,6 @@
       "Technical Art Intern (Apex Universe FPS Incubation Project)",
       "https://ea.gr8people.com/jobs/176411/technical-art-intern-apex-universe-fps-incubation-project"
     ],
-    [
-      "Government of Canda",
-      "https://www.canada.ca/en/services/jobs/opportunities/government.html"
-    ],
-    ["Hydro Québec", "https://emploi.hydroquebec.com"],
-    ["Ceridian New", "https://jobs.dayforcehcm.com/mydayforce/ETJB"],
-    ["Tesla", "https://www.tesla.com/careers/search/?type=3&site=CA"],
-    [
-      "National Capital Commission",
-      "https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=DNQV4N&cws=37"
-    ],
-    [
-      "Government of Ontario",
-      "https://www.gojobs.gov.on.ca/Preview.aspx?Language=English&JobID=186517"
-    ],
-    ["Ontario Power Generation", "https://jobs.opg.com/"],
-    ["FDM Group", "https://www.fdmgroup.com/en-ca/ca-co-ops/"],
-    ["Merck - Career Page", "https://jobs.merck.com/us/en/jointalentcommunity"],
-    [
-      "The Walt Disney Company",
-      "https://jobs.disneycareers.com/search-jobs?glat=45.42519&glon=-75.67863"
-    ],
-    [
-      "Definity",
-      "https://careers.definityfinancial.com/search/jobs/in?location=&page=2&q=intern#"
-    ]
+    ["Ceridian New", "https://jobs.dayforcehcm.com/mydayforce/ETJB"]
   ]
 }
