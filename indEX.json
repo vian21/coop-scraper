@@ -2,8 +2,7 @@
   "programs": [
     "Computer Engineering",
     "Computer Science",
-    "Software Engineering",
-    "Statistics"
+    "Software Engineering"
   ],
   "jobPostings": [
     [
@@ -109,18 +108,6 @@
     [
       "Replenishment Analyst - Canadian Tire Corporation",
       "https://ca.indeed.com/jobs?q=maths+Internship&start=30&pp=gQAtAAAAAAAAAAAAAAAB77Y6WAAOAQAlfGMPR2gglr64rwIAAA&vjk=bd0b26b133c5e936"
-    ],
-    [
-      "International Recruitment Development Program 2023- Internship Opportunity- Canada (Medical Devices)",
-      "https://jobs.jnj.com/en/jobs/00001iqz/international-recruitment-development-program-2023-internship-opportunity-canada-medical-devices/"
-    ],
-    [
-      "Gold Rush Summer Intern - Maintenance",
-      "https://ca.indeed.com/jobs?q=Statistic+Internship&start=10&pp=gQAPAAAAAAAAAAAAAAAB7-9txwAVAQAF7NUc79R_fQERfg3YAgwn-BoSAAA&vjk=20ef24cd917cdce4"
-    ],
-    [
-      "Health Actuary - Analyst II",
-      "https://ca.indeed.com/jobs?q=Statistic+Internship&start=30&pp=gQAtAAAAAAAAAAAAAAAB7-9txwAhAQEBBwJdbTSKW5MdMuZKzS_iYzilC2I-xMc2sYCnRGfHAAA&vjk=b268b4229f57a70d"
     ],
     [
       "Consultant Intern - Industry Transformation (Summer - 12 months)",
@@ -495,10 +482,6 @@
       "https://jobs.lever.co/geocomply-2/b5cae390-5cfb-44f0-9338-4269b3a56ba8"
     ],
     [
-      "Fraud Analyst Intern",
-      "https://jobs.lever.co/geocomply-2/eb5f7978-2d21-4c2d-aa11-cd51fdbcc21b"
-    ],
-    [
       "C++ Software Engineer Co-Op (Spring/Summer 2023) 8 months",
       "https://ea.gr8people.com/jobs/173661/c-software-engineer-co-op-springsummer-2023-8-months?geo_location=ChIJs0-pQ_FzhlQRi_OBm-qWkbs"
     ],
@@ -522,9 +505,62 @@
       "Government of Canda",
       "https://www.canada.ca/en/services/jobs/opportunities/government.html"
     ],
-    ["Hydro Québec", "https://emploi.hydroquebec.com"],
-    ["Ceridian", "https://jobs.dayforcehcm.com/mydayforce/ETJB"],
-    ["Tesla", "https://www.tesla.com/careers/search/?type=3&site=CA"],
+    [
+      "Hydro Québec",
+      "https://emploi.hydroquebec.com"
+    ],
+    [
+      "Ceridian",
+      "https://jobs.dayforcehcm.com/mydayforce/ETJB"
+    ],
+    [
+      "Tesla",
+      "https://www.tesla.com/careers/search/?type=3&site=CA"
+    ],
+    [
+      "National Capital Commission",
+      "https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=DNQV4N&cws=37"
+    ],
+    [
+      "Government of Ontario",
+      "https://www.gojobs.gov.on.ca/Preview.aspx?Language=English&JobID=186517"
+    ],
+    [
+      "Ontario Power Generation",
+      "https://jobs.opg.com/"
+    ],
+    [
+      "FDM Group",
+      "https://www.fdmgroup.com/en-ca/ca-co-ops/"
+    ],
+    [
+      "Merck - Career Page",
+      "https://jobs.merck.com/us/en/jointalentcommunity"
+    ],
+    [
+      "The Walt Disney Company",
+      "https://jobs.disneycareers.com/search-jobs?glat=45.42519&glon=-75.67863"
+    ],
+    [
+      "Definity",
+      "https://careers.definityfinancial.com/search/jobs/in?location=&page=2&q=intern#"
+    ],
+    [
+      "International Recruitment Development Program 2023- Internship Opportunity- Canada (Medical Devices)",
+      "https://jobs.jnj.com/en/jobs/00001iqz/international-recruitment-development-program-2023-internship-opportunity-canada-medical-devices/"
+    ],
+    [
+      "Gold Rush Summer Intern - Maintenance",
+      "https://ca.indeed.com/jobs?q=Statistic+Internship&start=10&pp=gQAPAAAAAAAAAAAAAAAB7-9txwAVAQAF7NUc79R_fQERfg3YAgwn-BoSAAA&vjk=20ef24cd917cdce4"
+    ],
+    [
+      "Health Actuary - Analyst II",
+      "https://ca.indeed.com/jobs?q=Statistic+Internship&start=30&pp=gQAtAAAAAAAAAAAAAAAB7-9txwAhAQEBBwJdbTSKW5MdMuZKzS_iYzilC2I-xMc2sYCnRGfHAAA&vjk=b268b4229f57a70d"
+    ],
+    [
+      "Fraud Analyst Intern",
+      "https://jobs.lever.co/geocomply-2/eb5f7978-2d21-4c2d-aa11-cd51fdbcc21b"
+    ],
     [
       "FSWEP - Federal Student Work Experience Program",
       "https://www.canada.ca/en/public-service-commission/jobs/services/recruitment/students/federal-student-work-program.html"
@@ -536,25 +572,6 @@
     [
       "Public Service Commission co-op Internship program",
       "https://www.canada.ca/en/public-service-commission/jobs/services/recruitment/students/coop-internship.html"
-    ],
-    [
-      "National Capital Commission",
-      "https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=DNQV4N&cws=37"
-    ],
-    [
-      "Government of Ontario",
-      "https://www.gojobs.gov.on.ca/Preview.aspx?Language=English&JobID=186517"
-    ],
-    ["Ontario Power Generation", "https://jobs.opg.com/"],
-    ["FDM Group", "https://www.fdmgroup.com/en-ca/ca-co-ops/"],
-    ["Merck - Career Page", "https://jobs.merck.com/us/en/jointalentcommunity"],
-    [
-      "The Walt Disney Company",
-      "https://jobs.disneycareers.com/search-jobs?glat=45.42519&glon=-75.67863"
-    ],
-    [
-      "Definity",
-      "https://careers.definityfinancial.com/search/jobs/in?location=&page=2&q=intern#"
     ],
     [
       "Co-op Student, Computer Science (Saskatchewan)",
@@ -696,6 +713,9 @@
       "Technical Art Intern (Apex Universe FPS Incubation Project)",
       "https://ea.gr8people.com/jobs/176411/technical-art-intern-apex-universe-fps-incubation-project"
     ],
-    ["Ceridian New", "https://jobs.dayforcehcm.com/mydayforce/ETJB"]
+    [
+      "Ceridian New",
+      "https://jobs.dayforcehcm.com/mydayforce/ETJB"
+    ]
   ]
 }

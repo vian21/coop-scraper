@@ -1,5 +1,7 @@
 # COOP-Scraper
 
+![Screenshot](images/screenshot.png)
+
 ### **Stack**:
 
 - NodeJS
