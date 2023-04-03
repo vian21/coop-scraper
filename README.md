@@ -31,7 +31,7 @@ The sccript will generate an `indEX.json` with all the data.
 
 ## Adding to new data
 
-The `HTML` content was scraped using an aunthenticated account on `Feb 21st 2022`. If you want to add new data or job postings:
+The `HTML` content was scraped using an aunthenticated account on `Apr 3rd 2022`. If you want to add new data or job postings:
 
 1. Login to you indEX account
 1. Select the faculty/programmes you want to summarize
